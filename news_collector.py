@@ -2,24 +2,54 @@ import feedparser
 import datetime
 import os
 
-# Set timezone for Japan (UTC+9) manually to avoid external heavy deps if possible,
-# or just use datetime with timezone info.
-# Since we are in a container, system time might be UTC.
 def get_jst_time():
+    """Returns the current time in JST."""
     utc_now = datetime.datetime.now(datetime.timezone.utc)
     jst_tz = datetime.timezone(datetime.timedelta(hours=9))
     return utc_now.astimezone(jst_tz)
 
+def is_today_jst(published_parsed):
+    """
+    Checks if the published_parsed (UTC struct_time) matches today's date in JST.
+    """
+    if not published_parsed:
+        return False
+
+    # Convert struct_time to aware datetime in UTC
+    try:
+        dt_utc = datetime.datetime(*published_parsed[:6], tzinfo=datetime.timezone.utc)
+
+        # Convert to JST
+        jst_tz = datetime.timezone(datetime.timedelta(hours=9))
+        dt_jst = dt_utc.astimezone(jst_tz)
+
+        # Get today's date in JST
+        today_jst = get_jst_time().date()
+
+        return dt_jst.date() == today_jst
+    except Exception as e:
+        print(f"Error parsing date: {e}")
+        return False
+
 def fetch_ai_news():
     # Google News RSS URL for "AI" (Artificial Intelligence) in Japanese
-    rss_url = "https://news.google.com/rss/search?q=AI+Artificial+Intelligence&hl=ja&gl=JP&ceid=JP:ja"
+    # Added when:1d to get recent news.
+    rss_url = "https://news.google.com/rss/search?q=AI+Artificial+Intelligence+when:1d&hl=ja&gl=JP&ceid=JP:ja"
 
     feed = feedparser.parse(rss_url)
-    return feed.entries
+
+    # Filter entries
+    today_entries = []
+    for entry in feed.entries:
+        if hasattr(entry, 'published_parsed') and is_today_jst(entry.published_parsed):
+            today_entries.append(entry)
+
+    return today_entries
 
 def generate_html(entries):
     jst_now = get_jst_time()
     date_str = jst_now.strftime("%Y年%m月%d日 %H:%M")
+    date_only_str = jst_now.strftime("%Y年%m月%d日")
 
     html_content = f"""
 <!DOCTYPE html>
@@ -27,7 +57,7 @@ def generate_html(entries):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI News Headlines</title>
+    <title>AI News Headlines ({date_only_str})</title>
     <style>
         body {{
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -78,29 +108,45 @@ def generate_html(entries):
             font-size: 0.85em;
             color: #95a5a6;
         }}
+        .no-news {{
+            text-align: center;
+            color: #7f8c8d;
+            padding: 20px;
+        }}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>AI関連ニュース (AI News Headlines)</h1>
-        <div class="update-time">更新日時: {date_str} (JST)</div>
+        <h1>AI関連ニュース - {date_only_str}</h1>
+        <div class="update-time">最終更新: {date_str} (JST)</div>
         <div class="news-list">
     """
 
-    for entry in entries:
-        # Some feeds might not have published_parsed
-        published = "日時不明"
-        if hasattr(entry, 'published'):
-            published = entry.published
-
-        html_content += f"""
-            <div class="news-item">
-                <div class="news-title">
-                    <a href="{entry.link}" target="_blank" rel="noopener noreferrer">{entry.title}</a>
-                </div>
-                <div class="news-meta">{published}</div>
-            </div>
+    if not entries:
+        html_content += """
+            <div class="no-news">本日のニュースはまだありません。</div>
         """
+    else:
+        for entry in entries:
+            # Re-format published date for display
+            published_text = entry.published
+            if hasattr(entry, 'published_parsed'):
+                 try:
+                    dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
+                    jst_tz = datetime.timezone(datetime.timedelta(hours=9))
+                    dt_jst = dt_utc.astimezone(jst_tz)
+                    published_text = dt_jst.strftime("%Y/%m/%d %H:%M")
+                 except:
+                    pass
+
+            html_content += f"""
+                <div class="news-item">
+                    <div class="news-title">
+                        <a href="{entry.link}" target="_blank" rel="noopener noreferrer">{entry.title}</a>
+                    </div>
+                    <div class="news-meta">{published_text}</div>
+                </div>
+            """
 
     html_content += """
         </div>
@@ -114,7 +160,7 @@ def generate_html(entries):
 def main():
     print("Fetching news...")
     entries = fetch_ai_news()
-    print(f"Found {len(entries)} articles.")
+    print(f"Found {len(entries)} articles from today.")
 
     html = generate_html(entries)
 
