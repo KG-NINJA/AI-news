@@ -8,9 +8,9 @@ def get_jst_time():
     jst_tz = datetime.timezone(datetime.timedelta(hours=9))
     return utc_now.astimezone(jst_tz)
 
-def is_today_jst(published_parsed):
+def is_within_last_24_hours(published_parsed):
     """
-    Checks if the published_parsed (UTC struct_time) matches today's date in JST.
+    Checks if the published_parsed (UTC struct_time) is within the last 24 hours.
     """
     if not published_parsed:
         return False
@@ -18,15 +18,10 @@ def is_today_jst(published_parsed):
     # Convert struct_time to aware datetime in UTC
     try:
         dt_utc = datetime.datetime(*published_parsed[:6], tzinfo=datetime.timezone.utc)
+        now_utc = datetime.datetime.now(datetime.timezone.utc)
 
-        # Convert to JST
-        jst_tz = datetime.timezone(datetime.timedelta(hours=9))
-        dt_jst = dt_utc.astimezone(jst_tz)
-
-        # Get today's date in JST
-        today_jst = get_jst_time().date()
-
-        return dt_jst.date() == today_jst
+        diff = now_utc - dt_utc
+        return datetime.timedelta(0) <= diff <= datetime.timedelta(hours=24)
     except Exception as e:
         print(f"Error parsing date: {e}")
         return False
@@ -39,12 +34,12 @@ def fetch_ai_news():
     feed = feedparser.parse(rss_url)
 
     # Filter entries
-    today_entries = []
+    recent_entries = []
     for entry in feed.entries:
-        if hasattr(entry, 'published_parsed') and is_today_jst(entry.published_parsed):
-            today_entries.append(entry)
+        if hasattr(entry, 'published_parsed') and is_within_last_24_hours(entry.published_parsed):
+            recent_entries.append(entry)
 
-    return today_entries
+    return recent_entries
 
 def generate_html(entries):
     jst_now = get_jst_time()
@@ -160,7 +155,7 @@ def generate_html(entries):
 def main():
     print("Fetching news...")
     entries = fetch_ai_news()
-    print(f"Found {len(entries)} articles from today.")
+    print(f"Found {len(entries)} articles from the last 24 hours.")
 
     html = generate_html(entries)
 
