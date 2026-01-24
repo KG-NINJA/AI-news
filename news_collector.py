@@ -8,24 +8,6 @@ def get_jst_time():
     jst_tz = datetime.timezone(datetime.timedelta(hours=9))
     return utc_now.astimezone(jst_tz)
 
-def is_within_last_24_hours(published_parsed):
-    """
-    Checks if the published_parsed (UTC struct_time) is within the last 24 hours.
-    """
-    if not published_parsed:
-        return False
-
-    # Convert struct_time to aware datetime in UTC
-    try:
-        dt_utc = datetime.datetime(*published_parsed[:6], tzinfo=datetime.timezone.utc)
-        now_utc = datetime.datetime.now(datetime.timezone.utc)
-
-        diff = now_utc - dt_utc
-        return datetime.timedelta(0) <= diff <= datetime.timedelta(hours=24)
-    except Exception as e:
-        print(f"Error parsing date: {e}")
-        return False
-
 def fetch_ai_news():
     # Google News RSS URL for "AI" (Artificial Intelligence) in Japanese
     # Added when:1d to get recent news.
@@ -34,9 +16,16 @@ def fetch_ai_news():
     feed = feedparser.parse(rss_url)
 
     # Filter entries
+    # Since we use when:1d, we accept all entries that have a valid date.
     recent_entries = []
     for entry in feed.entries:
-        if hasattr(entry, 'published_parsed') and is_within_last_24_hours(entry.published_parsed):
+        if hasattr(entry, 'published_parsed') and entry.published_parsed:
+             # Optional: Log the date for debugging
+            try:
+                dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
+                print(f"Accepted: {entry.title[:30]}... ({dt_utc})")
+            except:
+                pass
             recent_entries.append(entry)
 
     return recent_entries
