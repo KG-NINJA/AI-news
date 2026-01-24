@@ -8,29 +8,6 @@ def get_jst_time():
     jst_tz = datetime.timezone(datetime.timedelta(hours=9))
     return utc_now.astimezone(jst_tz)
 
-def is_today_jst(published_parsed):
-    """
-    Checks if the published_parsed (UTC struct_time) matches today's date in JST.
-    """
-    if not published_parsed:
-        return False
-
-    # Convert struct_time to aware datetime in UTC
-    try:
-        dt_utc = datetime.datetime(*published_parsed[:6], tzinfo=datetime.timezone.utc)
-
-        # Convert to JST
-        jst_tz = datetime.timezone(datetime.timedelta(hours=9))
-        dt_jst = dt_utc.astimezone(jst_tz)
-
-        # Get today's date in JST
-        today_jst = get_jst_time().date()
-
-        return dt_jst.date() == today_jst
-    except Exception as e:
-        print(f"Error parsing date: {e}")
-        return False
-
 def fetch_ai_news():
     # Google News RSS URL for "AI" (Artificial Intelligence) in Japanese
     # Added when:1d to get recent news.
@@ -39,12 +16,19 @@ def fetch_ai_news():
     feed = feedparser.parse(rss_url)
 
     # Filter entries
-    today_entries = []
+    # Since we use when:1d, we accept all entries that have a valid date.
+    recent_entries = []
     for entry in feed.entries:
-        if hasattr(entry, 'published_parsed') and is_today_jst(entry.published_parsed):
-            today_entries.append(entry)
+        if hasattr(entry, 'published_parsed') and entry.published_parsed:
+             # Optional: Log the date for debugging
+            try:
+                dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
+                print(f"Accepted: {entry.title[:30]}... ({dt_utc})")
+            except:
+                pass
+            recent_entries.append(entry)
 
-    return today_entries
+    return recent_entries
 
 def generate_html(entries):
     jst_now = get_jst_time()
@@ -160,7 +144,7 @@ def generate_html(entries):
 def main():
     print("Fetching news...")
     entries = fetch_ai_news()
-    print(f"Found {len(entries)} articles from today.")
+    print(f"Found {len(entries)} articles from the last 24 hours.")
 
     html = generate_html(entries)
 
