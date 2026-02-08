@@ -1,6 +1,7 @@
 import feedparser
 import datetime
 import os
+import logging
 
 def get_jst_time():
     """Returns the current time in JST."""
@@ -20,12 +21,11 @@ def fetch_ai_news():
     recent_entries = []
     for entry in feed.entries:
         if hasattr(entry, 'published_parsed') and entry.published_parsed:
-             # Optional: Log the date for debugging
             try:
                 dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
-                print(f"Accepted: {entry.title[:30]}... ({dt_utc})")
-            except:
-                pass
+                logging.debug(f"Accepted: {entry.title[:30]}... ({dt_utc})")
+            except Exception as e:
+                logging.debug(f"Error logging date: {e}")
             recent_entries.append(entry)
 
     return recent_entries
@@ -142,9 +142,12 @@ def generate_html(entries):
     return html_content
 
 def main():
-    print("Fetching news...")
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+    logging.info("Fetching news...")
     entries = fetch_ai_news()
-    print(f"Found {len(entries)} articles from the last 24 hours.")
+    logging.info(f"Found {len(entries)} articles from the last 24 hours.")
 
     html = generate_html(entries)
 
@@ -152,7 +155,7 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    print(f"Successfully generated {output_path}")
+    logging.info(f"Successfully generated {output_path}")
 
 if __name__ == "__main__":
     main()
