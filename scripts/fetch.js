@@ -22,7 +22,6 @@ let newItems=[]
 
 for(const url of sources){
 
-try{
 const feed=await parser.parseURL(url)
 
 feed.items.forEach(item=>{
@@ -34,9 +33,6 @@ newItems.push(item)
 }
 
 })
-}catch(_error){
- console.log(`RSS failed: ${url}`)
-}
 
 }
 
