@@ -1,4 +1,6 @@
-const fs = require("fs")
+import fs from "fs"
+
+async function run(){
 
 const raw=fs.readFileSync(
 "news/raw/latest.txt",
@@ -6,6 +8,14 @@ const raw=fs.readFileSync(
 )
 
 const API_KEY=process.env.GEMINI_API_KEY
+
+if(!API_KEY){
+
+console.log("No GEMINI_API_KEY")
+
+process.exit(1)
+
+}
 
 const prompt=`
 
@@ -15,30 +25,13 @@ const prompt=`
 
 要約は禁止。
 
-解釈と仮説を必ず含めてください。
-
-構成:
-
-タイトル
-
-重要な流れ
-
-解釈
-
-仮説
-
-未来予測
+解釈と仮説を含めてください。
 
 ニュース:
 
 ${raw}
 
 `
-
-async function run() {
-if(!fs.existsSync("docs")){
- fs.mkdirSync("docs", { recursive: true })
-}
 
 const res=await fetch(
 
@@ -69,6 +62,17 @@ parts:[
 
 const data=await res.json()
 
+console.log("Gemini response:")
+console.log(JSON.stringify(data,null,2))
+
+if(!data.candidates){
+
+console.log("Gemini error")
+
+process.exit(1)
+
+}
+
 const text=data.candidates[0].content.parts[0].text
 
 const filename="docs/gemini-"+Date.now()+".md"
@@ -77,6 +81,9 @@ fs.writeFileSync(
 filename,
 text
 )
+
+console.log("Article created:",filename)
+
 }
 
 run()
