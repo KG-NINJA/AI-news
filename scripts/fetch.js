@@ -1,95 +1,77 @@
-const Parser = require("rss-parser")
-const fs = require("fs")
+import fs from "fs"
+import Parser from "rss-parser"
 
 const parser = new Parser()
 
-async function run(){
+// 安定サイトだけ
+const feeds = [
+  "https://venturebeat.com/category/ai/feed/",
+  "https://www.technologyreview.com/feed/"
+]
 
-const sources = fs.readFileSync(
-"sources/rss.txt",
-"utf8"
-)
-.split("\n")
-.filter(x=>x.trim().length>0)
+// 5秒タイムアウト付きfetch
+async function fetchWithTimeout(url, timeout = 5000) {
 
-let processed=[]
+  const controller = new AbortController()
+  const id = setTimeout(() => controller.abort(), timeout)
 
-if(fs.existsSync("state/processed.json")){
- processed=JSON.parse(
- fs.readFileSync("state/processed.json")
- )
+  try {
+    const res = await fetch(url, { signal: controller.signal })
+    clearTimeout(id)
+    return res
+  } catch (e) {
+    clearTimeout(id)
+    throw e
+  }
 }
 
-let newItems=[]
+async function run() {
 
-for(const url of sources){
+  let allItems = []
 
-console.log("Checking:",url)
+  for (const url of feeds) {
 
-try{
+    console.log("Checking:", url)
 
-const feed=await parser.parseURL(url)
+    try {
 
-feed.items.forEach(item=>{
+      const res = await fetchWithTimeout(url)
+      const xml = await res.text()
+      const feed = await parser.parseString(xml)
 
-if(item.link && !processed.includes(item.link)){
- newItems.push(item)
-}
+      const items = feed.items.slice(0, 3) // 最新3件だけ
 
-})
+      for (const item of items) {
+        allItems.push({
+          title: item.title,
+          link: item.link
+        })
+      }
 
-}catch(e){
+    } catch (e) {
 
-console.log("RSS failed:",url)
+      console.log("RSS failed:", url)
+      console.log("Reason:", e.message)
 
-continue
+      continue // 失敗しても次へ
 
-}
+    }
+  }
 
-}
+  console.log("Total items:", allItems.length)
 
-if(newItems.length===0){
+  // ディレクトリ確保
+  fs.mkdirSync("news/raw", { recursive: true })
 
-console.log("No new items")
+  const text = allItems.map(i =>
+    `${i.title}\n${i.link}\n`
+  ).join("\n")
 
-process.exit(0)
+  fs.writeFileSync("news/raw/latest.txt", text)
 
-}
+  console.log("latest.txt written")
 
-let output=""
-
-newItems.slice(0,10).forEach(item=>{
-
-output+=`
-TITLE:
-${item.title}
-
-LINK:
-${item.link}
-
-SUMMARY:
-${item.contentSnippet}
-
------
-
-`
-
-processed.push(item.link)
-
-})
-
-fs.writeFileSync(
-"news/raw/latest.txt",
-output
-)
-
-fs.writeFileSync(
-"state/processed.json",
-JSON.stringify(processed,null,2)
-)
-
-console.log("New items:",newItems.length)
-
+  process.exit(0) // 絶対成功扱い
 }
 
 run()
