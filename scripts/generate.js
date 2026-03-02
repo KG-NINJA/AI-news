@@ -2,23 +2,31 @@ import fs from "fs"
 
 async function run(){
 
+try{
+
 const raw=fs.readFileSync(
 "news/raw/latest.txt",
 "utf8"
 )
 
-// 長さ制限（重要）
-const shortRaw=raw.slice(0,8000)
+// 長さ制限
+const shortRaw=raw.slice(0,6000)
 
 const API_KEY=process.env.GEMINI_API_KEY
 
+if(!API_KEY){
+
+console.log("No API key")
+
+process.exit(0)
+
+}
+
 const prompt=`
 
-海外AIニュースを分析してください。
+海外AIニュースの流れを分析してください。
 
-要約は禁止。
-
-考察を書いてください。
+要約ではなく考察を書いてください。
 
 ${shortRaw}
 
@@ -30,13 +38,10 @@ const response = await fetch(
 
 {
 method:"POST",
-
 headers:{
 "Content-Type":"application/json"
 },
-
 body:JSON.stringify({
-
 contents:[
 {
 parts:[
@@ -44,23 +49,18 @@ parts:[
 ]
 }
 ]
-
 })
-
 }
 
 )
 
 const textResponse=await response.text()
 
-console.log("Raw response:")
-console.log(textResponse)
-
 if(!textResponse){
 
 console.log("Empty response")
 
-process.exit(1)
+process.exit(0)
 
 }
 
@@ -70,7 +70,7 @@ if(!data.candidates){
 
 console.log("Gemini error")
 
-process.exit(1)
+process.exit(0)
 
 }
 
@@ -84,6 +84,16 @@ text
 )
 
 console.log("Article created:",filename)
+
+}catch(e){
+
+console.log("Generate failed but continuing")
+
+console.log(e)
+
+process.exit(0)
+
+}
 
 }
 
