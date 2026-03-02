@@ -8,7 +8,9 @@ async function run(){
 const sources = fs.readFileSync(
 "sources/rss.txt",
 "utf8"
-).split("\n").filter(x=>x)
+)
+.split("\n")
+.filter(x=>x.trim().length>0)
 
 let processed=[]
 
@@ -22,27 +24,34 @@ let newItems=[]
 
 for(const url of sources){
 
+console.log("Checking:",url)
+
+try{
+
 const feed=await parser.parseURL(url)
 
 feed.items.forEach(item=>{
 
-if(!processed.includes(item.link)){
-
-newItems.push(item)
-
+if(item.link && !processed.includes(item.link)){
+ newItems.push(item)
 }
 
 })
+
+}catch(e){
+
+console.log("RSS failed:",url)
+
+continue
+
+}
 
 }
 
 if(newItems.length===0){
 
-if(fs.existsSync("news/raw/latest.txt")){
- fs.unlinkSync("news/raw/latest.txt")
-}
-
 console.log("No new items")
+
 process.exit(0)
 
 }
@@ -51,7 +60,19 @@ let output=""
 
 newItems.slice(0,10).forEach(item=>{
 
-output+=`\nTITLE:\n${item.title}\n\nLINK:\n${item.link}\n\nSUMMARY:\n${item.contentSnippet}\n\n-----\n\n`
+output+=`
+TITLE:
+${item.title}
+
+LINK:
+${item.link}
+
+SUMMARY:
+${item.contentSnippet}
+
+-----
+
+`
 
 processed.push(item.link)
 
@@ -66,6 +87,8 @@ fs.writeFileSync(
 "state/processed.json",
 JSON.stringify(processed,null,2)
 )
+
+console.log("New items:",newItems.length)
 
 }
 
