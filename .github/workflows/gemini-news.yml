@@ -1,49 +1,12 @@
-name: Gemini AI News
+- name: Generate Article
+  run: node scripts/generate.js
+  env:
+    GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-on:
-
- schedule:
-   - cron: "0 */6 * * *"
-
- workflow_dispatch:
-
-jobs:
-
- build:
-
-  runs-on: ubuntu-latest
-
-  steps:
-
-  - uses: actions/checkout@v4
-
-  - uses: actions/setup-node@v4
-
-    with:
-      node-version: 20
-
-  - run: npm install rss-parser
-
-  - name: Fetch News
-    run: node scripts/fetch.js
-
-  - name: Generate Article
-    if: ${{ hashFiles('news/raw/latest.txt') != '' }}
-    run: node scripts/generate.js
-
-    env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-  - name: Commit
-    if: ${{ hashFiles('news/raw/latest.txt') != '' }}
-
-    run: |
-
-      git config user.name github-actions
-      git config user.email actions@github.com
-
-      git add .
-
-      git commit -m "auto gemini news" || echo no-change
-
-      git push
+- name: Commit
+  run: |
+    git config user.name github-actions
+    git config user.email actions@github.com
+    git add .
+    git commit -m "auto gemini news" || echo no-change
+    git push
