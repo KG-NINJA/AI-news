@@ -7,35 +7,26 @@ const raw=fs.readFileSync(
 "utf8"
 )
 
+// 長さ制限（重要）
+const shortRaw=raw.slice(0,8000)
+
 const API_KEY=process.env.GEMINI_API_KEY
-
-if(!API_KEY){
-
-console.log("No GEMINI_API_KEY")
-
-process.exit(1)
-
-}
 
 const prompt=`
 
-以下は海外AIニュースです。
-
-日本語で考察記事を書いてください。
+海外AIニュースを分析してください。
 
 要約は禁止。
 
-解釈と仮説を含めてください。
+考察を書いてください。
 
-ニュース:
-
-${raw}
+${shortRaw}
 
 `
 
-const res=await fetch(
+const response = await fetch(
 
-"https://generativelanguage.googleapis.com/v1beta/models/models/gemini-2.0-flash:generateContent?key="+API_KEY,
+"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="+API_KEY,
 
 {
 method:"POST",
@@ -60,10 +51,20 @@ parts:[
 
 )
 
-const data=await res.json()
+const textResponse=await response.text()
 
-console.log("Gemini response:")
-console.log(JSON.stringify(data,null,2))
+console.log("Raw response:")
+console.log(textResponse)
+
+if(!textResponse){
+
+console.log("Empty response")
+
+process.exit(1)
+
+}
+
+const data=JSON.parse(textResponse)
 
 if(!data.candidates){
 
