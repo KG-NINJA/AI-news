@@ -13,54 +13,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install Dependencies
-        run: npm install rss-parser
+      - run: npm install rss-parser
 
-      # -----------------------------
-      # 1. Fetch RSS (AI + WORLD)
-      # -----------------------------
       - name: Fetch RSS
         run: node scripts/fetch.js
 
-      # -----------------------------
-      # 2. Build HTML from latest.json
-      # -----------------------------
-      - name: Build Index from JSON
-        run: node scripts/build-from-json.js
-
-      # -----------------------------
-      # 3. (Optional) Generate AI Article
-      # -----------------------------
-      - name: Generate AI Article
+      - name: Generate Article
         continue-on-error: true
         run: node scripts/generate.js
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      # -----------------------------
-      # 4. Rebuild Index (if article added)
-      # -----------------------------
-      - name: Rebuild Index
-        run: node scripts/build-index.js || echo "No article index update"
+      - name: Build Index
+        run: node scripts/build-index.js
 
-      # -----------------------------
-      # 5. Clean unwanted files
-      # -----------------------------
-      - name: Remove node_modules from commit
+      - name: Remove node_modules
         run: rm -rf node_modules
 
-      # -----------------------------
-      # 6. Commit & Push
-      # -----------------------------
-      - name: Commit changes
+      - name: Commit
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
