@@ -16,32 +16,32 @@
   },
   {
     "category": "AI",
+    "title": "MIT Technology Review Insiders Panel",
+    "link": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/"
+  },
+  {
+    "category": "AI",
+    "title": "The Download: The startup that says it can stop lightning, and inside OpenAI’s Pentagon deal",
+    "link": "https://www.technologyreview.com/2026/03/03/1133900/the-download-the-startup-that-says-it-can-stop-lightning-and-inside-openais-pentagon-deal/"
+  },
+  {
+    "category": "AI",
     "title": "This startup claims it can stop lightning and prevent catastrophic wildfires",
     "link": "https://www.technologyreview.com/2026/03/03/1133848/this-startup-claims-it-can-stop-lightning-and-prevent-catastrophic-wildfires/"
   },
   {
-    "category": "AI",
-    "title": "OpenAI’s “compromise” with the Pentagon is what Anthropic feared",
-    "link": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: protesting AI, and what’s floating in space",
-    "link": "https://www.technologyreview.com/2026/03/02/1133811/the-download-protesting-ai-and-whats-floating-in-space/"
+    "category": "WORLD",
+    "title": "Gas and oil prices soar and shares tumble on fears conflict could escalate",
+    "link": "https://www.bbc.com/news/articles/cr5lz0vgy52o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Gas and oil prices soar and shares tumble as crucial shipping lane threatened",
-    "link": "https://www.bbc.com/news/articles/cr5lz0vgy52o?at_medium=RSS&at_campaign=rss"
+    "title": "Battered and isolated, Hezbollah drags Lebanon into another war",
+    "link": "https://www.bbc.com/news/articles/c4gq3ykg7pvo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Six US soldiers killed in Iranian strike on Kuwait base",
     "link": "https://www.bbc.com/news/articles/c4gq33ynl07o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "OpenAI changes deal with US military after backlash",
-    "link": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss"
   }
 ]
