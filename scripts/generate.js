@@ -2,99 +2,80 @@ import fs from "fs"
 
 async function run(){
 
-try{
+  const API_KEY = process.env.GEMINI_API_KEY
 
-const raw=fs.readFileSync(
-"news/raw/latest.txt",
-"utf8"
-)
+  const data = JSON.parse(
+    fs.readFileSync("news/raw/latest.json","utf8")
+  )
 
-// 長さ制限
-const shortRaw=raw.slice(0,6000)
+  const ai = data
+    .filter(i=>i.category==="AI")
+    .slice(0,3)
 
-const API_KEY=process.env.GEMINI_API_KEY
+  const world = data
+    .filter(i=>i.category==="WORLD")
+    .slice(0,2)
 
-if(!API_KEY){
+  const aiText = ai.map(i=>`- ${i.title}`).join("\n")
+  const worldText = world.map(i=>`- ${i.title}`).join("\n")
 
-console.log("No API key")
+  const prompt = `
+以下は最新の海外ニュースです。
 
-process.exit(0)
+## AI関連
+${aiText}
 
-}
+## 世界情勢
+${worldText}
 
-const prompt=`
+日本語でニュース記事として再構成してください。
 
-海外AIニュースの流れを分析してください。
+単なる要約ではなく、
+背景・影響・今後の可能性を含めてください。
 
-要約ではなく考察を書いてください。
-
-${shortRaw}
-
+セクション分け：
+# AIニュース考察
+# 世界情勢ニュース考察
 `
 
-const response = await fetch(
+  const res = await fetch(
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="+API_KEY,
+    {
+      method:"POST",
+      headers:{ "Content-Type":"application/json" },
+      body:JSON.stringify({
+        contents:[{parts:[{text:prompt}]}]
+      })
+    }
+  )
 
-"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="+API_KEY,
+  const json = await res.json()
 
-{
-method:"POST",
-headers:{
-"Content-Type":"application/json"
-},
-body:JSON.stringify({
-contents:[
-{
-parts:[
-{ text: prompt }
-]
-}
-]
-})
-}
+  if(!json.candidates){
+    console.log("Gemini error")
+    process.exit(0)
+  }
 
-)
+  const text = json.candidates[0].content.parts[0].text
 
-const textResponse=await response.text()
+  fs.mkdirSync("docs",{recursive:true})
 
-if(!textResponse){
+  const filename = "docs/article-"+Date.now()+".html"
 
-console.log("Empty response")
+  fs.writeFileSync(filename,`
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AI + World News</title>
+  </head>
+  <body style="font-family:system-ui;max-width:800px;margin:40px auto;">
+  <h1>AI + 世界情勢 自動考察ニュース</h1>
+  ${text.replace(/\n/g,"<br>")}
+  </body>
+  </html>
+  `)
 
-process.exit(0)
-
-}
-
-const data=JSON.parse(textResponse)
-
-if(!data.candidates){
-
-console.log("Gemini error")
-
-process.exit(0)
-
-}
-
-const text=data.candidates[0].content.parts[0].text
-
-const filename="docs/gemini-"+Date.now()+".md"
-
-fs.writeFileSync(
-filename,
-text
-)
-
-console.log("Article created:",filename)
-
-}catch(e){
-
-console.log("Generate failed but continuing")
-
-console.log(e)
-
-process.exit(0)
-
-}
-
+  console.log("Article created:",filename)
 }
 
 run()
