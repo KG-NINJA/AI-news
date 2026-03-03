@@ -34,7 +34,7 @@ async function run(){
     const aiText = ai.map(i=>`- ${i.title}`).join("\n")
     const worldText = world.map(i=>`- ${i.title}`).join("\n")
 
-    const prompt = `
+    const prompt = const prompt = `
 以下は最新の海外ニュースです。
 
 ## AI関連
@@ -43,12 +43,16 @@ ${aiText}
 ## 世界情勢
 ${worldText}
 
-日本語でニュース記事として再構成してください。
-背景・影響・今後の可能性を含めてください。
+日本語で簡潔な考察記事を書いてください。
 
-セクション分け：
-# AIニュース考察
-# 世界情勢ニュース考察
+・各セクション300〜500文字程度
+・冗長な説明は禁止
+・背景と今後のポイントだけ
+・メディア風に自然な文章で
+
+構成：
+# AIニュースまとめ
+# 世界情勢まとめ
 `
 
     const res = await fetchWithTimeout(
