@@ -1,4 +1,4 @@
-name: Gemini AI News
+name: AI + World News Auto
 
 on:
   schedule:
@@ -13,26 +13,58 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: npm install rss-parser
+      - name: Install Dependencies
+        run: npm install rss-parser
 
-      - name: Fetch News
+      # -----------------------------
+      # 1. Fetch RSS (AI + WORLD)
+      # -----------------------------
+      - name: Fetch RSS
         run: node scripts/fetch.js
 
-      - name: Generate Article
+      # -----------------------------
+      # 2. Build HTML from latest.json
+      # -----------------------------
+      - name: Build Index from JSON
+        run: node scripts/build-from-json.js
+
+      # -----------------------------
+      # 3. (Optional) Generate AI Article
+      # -----------------------------
+      - name: Generate AI Article
+        continue-on-error: true
         run: node scripts/generate.js
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Commit
+      # -----------------------------
+      # 4. Rebuild Index (if article added)
+      # -----------------------------
+      - name: Rebuild Index
+        run: node scripts/build-index.js || echo "No article index update"
+
+      # -----------------------------
+      # 5. Clean unwanted files
+      # -----------------------------
+      - name: Remove node_modules from commit
+        run: rm -rf node_modules
+
+      # -----------------------------
+      # 6. Commit & Push
+      # -----------------------------
+      - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
           git add .
-          git commit -m "auto gemini news" || echo no-change
+          git restore --staged node_modules || true
+          git commit -m "auto update AI + World news" || echo "No changes"
           git push
