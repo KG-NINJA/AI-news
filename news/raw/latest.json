@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "This startup claims it can stop lightning and prevent catastrophic wildfires",
+    "link": "https://www.technologyreview.com/2026/03/03/1133848/this-startup-claims-it-can-stop-lightning-and-prevent-catastrophic-wildfires/"
+  },
+  {
+    "category": "AI",
     "title": "OpenAI’s “compromise” with the Pentagon is what Anthropic feared",
     "link": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/03/02/1133811/the-download-protesting-ai-and-whats-floating-in-space/"
   },
   {
-    "category": "AI",
-    "title": "I checked out one of the biggest anti-AI protests yet",
-    "link": "https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/"
+    "category": "WORLD",
+    "title": "Gas and oil prices soar and shares tumble as crucial shipping lane threatened",
+    "link": "https://www.bbc.com/news/articles/cr5lz0vgy52o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Israel strikes Lebanon after Hezbollah rocket fire as Iran conflict widens",
-    "link": "https://www.bbc.com/news/articles/c5y4v8g13wxo?at_medium=RSS&at_campaign=rss"
+    "title": "Six US soldiers killed in Iranian strike on Kuwait base",
+    "link": "https://www.bbc.com/news/articles/c4gq33ynl07o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "'They hit so hard the house was shaking': Iranians describe impact of US-Israel attacks",
-    "link": "https://www.bbc.com/news/articles/cx2jyv3jp01o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "France to boost nuclear arsenal and extend deterrence to European allies",
-    "link": "https://www.bbc.com/news/articles/cj4zlnezrl7o?at_medium=RSS&at_campaign=rss"
+    "title": "OpenAI changes deal with US military after backlash",
+    "link": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss"
   }
 ]
