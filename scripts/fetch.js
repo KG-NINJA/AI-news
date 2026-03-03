@@ -3,75 +3,53 @@ import Parser from "rss-parser"
 
 const parser = new Parser()
 
-// 安定サイトだけ
-const feeds = [
-  "https://venturebeat.com/category/ai/feed/",
-  "https://www.technologyreview.com/feed/"
-]
-
-// 5秒タイムアウト付きfetch
-async function fetchWithTimeout(url, timeout = 5000) {
-
-  const controller = new AbortController()
-  const id = setTimeout(() => controller.abort(), timeout)
-
-  try {
-    const res = await fetch(url, { signal: controller.signal })
-    clearTimeout(id)
-    return res
-  } catch (e) {
-    clearTimeout(id)
-    throw e
-  }
+const sources = {
+  AI: [
+    "https://venturebeat.com/category/ai/feed/",
+    "https://www.technologyreview.com/feed/"
+  ],
+  WORLD: [
+    "http://feeds.bbci.co.uk/news/world/rss.xml"
+  ]
 }
 
-async function run() {
+async function run(){
 
-  let allItems = []
+  let all = []
 
-  for (const url of feeds) {
+  for(const category in sources){
 
-    console.log("Checking:", url)
+    for(const url of sources[category]){
 
-    try {
+      try{
 
-      const res = await fetchWithTimeout(url)
-      const xml = await res.text()
-      const feed = await parser.parseString(xml)
+        console.log("Checking:",url)
 
-      const items = feed.items.slice(0, 3) // 最新3件だけ
+        const feed = await parser.parseURL(url)
 
-      for (const item of items) {
-        allItems.push({
-          title: item.title,
-          link: item.link
+        const items = feed.items.slice(0,3)
+
+        items.forEach(item=>{
+          all.push({
+            category,
+            title:item.title,
+            link:item.link
+          })
         })
+
+      }catch(e){
+        console.log("RSS failed:",url)
       }
-
-    } catch (e) {
-
-      console.log("RSS failed:", url)
-      console.log("Reason:", e.message)
-
-      continue // 失敗しても次へ
-
     }
   }
 
-  console.log("Total items:", allItems.length)
+  fs.mkdirSync("news/raw",{recursive:true})
+  fs.writeFileSync(
+    "news/raw/latest.json",
+    JSON.stringify(all,null,2)
+  )
 
-  // ディレクトリ確保
-  fs.mkdirSync("news/raw", { recursive: true })
-
-  const text = allItems.map(i =>
-    `${i.title}\n${i.link}\n`
-  ).join("\n")
-
-  fs.writeFileSync("news/raw/latest.txt", text)
-
-  console.log("latest.txt written")
-
-  process.exit(0) // 絶対成功扱い
+  console.log("Combined RSS written:",all.length)
 }
 
 run()
