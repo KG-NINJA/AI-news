@@ -5,6 +5,10 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: ai-news
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -19,28 +23,37 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install rss-parser
+      - name: Install deps
+        run: npm install rss-parser
 
       - name: Fetch RSS
+        timeout-minutes: 2
         run: node scripts/fetch.js
 
       - name: Generate Article
+        if: success()
         continue-on-error: true
+        timeout-minutes: 2
         run: node scripts/generate.js
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Build Index
+        timeout-minutes: 1
         run: node scripts/build-index.js
 
-      - name: Remove node_modules
+      - name: Clean node_modules
         run: rm -rf node_modules
 
-      - name: Commit
+      - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
           git add .
           git restore --staged node_modules || true
-          git commit -m "auto update AI + World news" || echo "No changes"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "auto update AI + World news"
+            git push
+          fi
