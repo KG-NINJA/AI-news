@@ -34,7 +34,7 @@ async function run(){
     const aiText = ai.map(i=>`- ${i.title}`).join("\n")
     const worldText = world.map(i=>`- ${i.title}`).join("\n")
 
-    const prompt = const prompt = `
+    const prompt = `
 以下は最新の海外ニュースです。
 
 ## AI関連
