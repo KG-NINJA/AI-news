@@ -1,130 +1,119 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>AI + 世界情勢ニュース</title>
-
 <style>
-
 body{
-  margin:0;
-  font-family:system-ui;
-  background:#f4f6f8;
+  font-family: system-ui;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.8;
 }
-
-.container{
-  max-width:1100px;
-  margin:auto;
-  padding:40px 20px;
+h1{
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
 }
-
-header{
-  margin-bottom:30px;
+ul{
+  list-style:none;
+  padding:0;
 }
-
-header h1{
-  margin:0;
+li{
+  margin-bottom:10px;
 }
-
-header p{
-  color:#666;
-}
-
-.grid{
-  display:grid;
-  grid-template-columns:2fr 1fr;
-  gap:30px;
-}
-
-.card{
-  background:white;
-  padding:20px;
-  border-radius:10px;
-  box-shadow:0 2px 10px rgba(0,0,0,0.05);
-}
-
-.card h2{
-  margin-top:0;
-}
-
-.news-item{
-  margin-bottom:12px;
-}
-
-.tag-ai{
-  color:#0077cc;
-  font-weight:bold;
-}
-
-.tag-world{
-  color:#cc3300;
-  font-weight:bold;
-}
-
 a{
   text-decoration:none;
+  color:#0066cc;
 }
-
 a:hover{
   text-decoration:underline;
 }
-
-footer{
+.section{
   margin-top:40px;
-  font-size:13px;
-  color:#777;
+  padding:20px;
+  background:#f8f8f8;
+  border-radius:8px;
 }
-
 </style>
 </head>
-
 <body>
 
-<div class="container">
-
-<header>
 <h1>AI + 世界情勢ニュース</h1>
-<p>海外ニュースをAIが分析して自動更新</p>
-</header>
 
-<div class="grid">
+<h2>最新RSS速報</h2>
+<ul>
 
-<div class="card">
-<h2>最新ニュース</h2>
+    <li>
+      <span style="font-weight:bold;color:#0077cc">
+        [AI]
+      </span>
+      <a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank">Railway secures $100 million to challenge AWS with AI-native cloud infrastructure</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#0077cc">
+        [AI]
+      </span>
+      <a href="https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free" target="_blank">Claude Code costs up to $200 a month. Goose does the same thing for free.</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#0077cc">
+        [AI]
+      </span>
+      <a href="https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai" target="_blank">Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#0077cc">
+        [AI]
+      </span>
+      <a href="https://www.technologyreview.com/2026/03/04/1133942/the-download-earths-rumblings-and-ai-for-strikes-on-iran/" target="_blank">The Download: Earth’s rumblings, and AI for strikes on Iran</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#0077cc">
+        [AI]
+      </span>
+      <a href="https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/" target="_blank">MIT Technology Review Insiders Panel</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#0077cc">
+        [AI]
+      </span>
+      <a href="https://www.technologyreview.com/2026/03/03/1133900/the-download-the-startup-that-says-it-can-stop-lightning-and-inside-openais-pentagon-deal/" target="_blank">The Download: The startup that says it can stop lightning, and inside OpenAI’s Pentagon deal</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#cc3300">
+        [WORLD]
+      </span>
+      <a href="https://www.bbc.com/news/articles/c93wwq1n542o?at_medium=RSS&at_campaign=rss" target="_blank">Spain's Pedro Sánchez hits back at Trump threat to sever trade saying 'no to war'</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#cc3300">
+        [WORLD]
+      </span>
+      <a href="https://www.bbc.com/news/articles/c7955ewj7gwo?at_medium=RSS&at_campaign=rss" target="_blank">Three men arrested in UK on suspicion of spying for China</a>
+    </li>
+  
+    <li>
+      <span style="font-weight:bold;color:#cc3300">
+        [WORLD]
+      </span>
+      <a href="https://www.bbc.com/news/articles/c89kkykg39yo?at_medium=RSS&at_campaign=rss" target="_blank">Greek court upholds criminal organisation verdict on neo-Nazi Golden Dawn</a>
+    </li>
+  
+</ul>
 
-<div class="news-item">
-<span class="tag-ai">AI</span>
-<a href="#">Railway secures $100 million to challenge AWS</a>
-</div>
+<h2>最新考察（自動生成）</h2>
+<div class="section">
 
-<div class="news-item">
-<span class="tag-ai">AI</span>
-<a href="#">Claude Code vs Goose</a>
-</div>
-
-<div class="news-item">
-<span class="tag-world">WORLD</span>
-<a href="#">Israel strikes Lebanon</a>
-</div>
-
-</div>
-
-<div class="card">
-<h2>最新考察</h2>
-
-<p>
-AIと世界情勢の最新ニュースをAIが分析した考察記事。
-</p>
-
-<a href="article-latest.html">最新記事を読む →</a>
-
-</div>
-
-</div>
-
-<footer>
-AI News Auto System
-</footer>
+<h1>AI + 世界情勢 自動考察ニュース</h1>
+# AIニュースまとめ<br><br>AI市場では、インフラとツールの両面で「既存勢力への挑戦」が加速している。Railwayが1億ドルを調達した背景には、AWSのような汎用クラウドが、AI特有のワークロードに最適化しきれていない現状がある。開発効率を極限まで高める「AIネイティブ」な基盤への投資加速は、クラウド市場の勢力図を塗り替える可能性がある。<br><br>また、開発支援ツールの分野では、月額200ドルの商用版「Claude Code」に対し、無料のオープンソース「Goose」が台頭するなど、収益化と普及のバランスを巡る競争が激化している。一方、Listen Labsの大型調達は、これまで人間に依存していた顧客インタビューという定性調査の領域までもが、AIによって大規模に自動化されるフェーズに入ったことを示唆している。<br><br>**今後のポイント：**<br>汎用クラウドからAI特化型インフラへの移行が進むか、そして開発・調査業務における「AIによるコスト破壊」がどこまで既存のビジネスモデルを代替するかが焦点となる。<br><br># 世界情勢まとめ<br><br>地政学リスクの再燃が、世界経済の安定を直接的に揺さぶっている。中東情勢の緊迫化を背景とした原油・ガス価格の急騰は、ようやく落ち着きを見せ始めていたインフレ再燃への懸念を呼び起こし、株式市場の動揺を招いた。エネルギー供給の不安定化は、実体経済への打撃となるだけでなく、各国の金融政策の舵取りを困難にさせている。<br><br>並行して、国際秩序の火種となっているのが「保護主義の再燃」だ。トランプ氏による貿易制限の示唆に対し、スペインのサンチェス首相が毅然とした態度を示したことは、欧州と米国の間に生じつつある深い溝を象徴している。自由貿易の恩恵を受けてきたグローバル経済にとって、大国間の対立と制裁の応酬は深刻なリスク要因である。<br><br>**今後のポイント：**<br>紛争の拡大がエネルギー価格をどこまで押し上げるか、そして米大統領選を見据えた「自国第一主義」的な言説が、実際の貿易摩擦や関税戦争へと発展するかを注視すべきである。経済の先行きは、政治的な対話の成否に強く依存している。
 
 </div>
 
