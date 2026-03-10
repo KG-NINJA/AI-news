@@ -35,7 +35,8 @@ def generate_html(entries):
     date_str = jst_now.strftime("%Y年%m月%d日 %H:%M")
     date_only_str = jst_now.strftime("%Y年%m月%d日")
 
-    html_content = f"""
+    html_parts = []
+    html_parts.append(f"""
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -104,12 +105,12 @@ def generate_html(entries):
         <h1>AI関連ニュース - {date_only_str}</h1>
         <div class="update-time">最終更新: {date_str} (JST)</div>
         <div class="news-list">
-    """
+    """)
 
     if not entries:
-        html_content += """
+        html_parts.append("""
             <div class="no-news">本日のニュースはまだありません。</div>
-        """
+        """)
     else:
         for entry in entries:
             # Re-format published date for display
@@ -123,23 +124,23 @@ def generate_html(entries):
                  except:
                     pass
 
-            html_content += f"""
+            html_parts.append(f"""
                 <div class="news-item">
                     <div class="news-title">
                         <a href="{entry.link}" target="_blank" rel="noopener noreferrer">{entry.title}</a>
                     </div>
                     <div class="news-meta">{published_text}</div>
                 </div>
-            """
+            """)
 
-    html_content += """
+    html_parts.append("""
         </div>
     </div>
 </body>
 </html>
-    """
+    """)
 
-    return html_content
+    return "".join(html_parts)
 
 def main():
     # Configure logging
