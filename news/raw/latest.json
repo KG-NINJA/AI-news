@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Future AI chips could be built on glass",
+    "link": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/"
+  },
+  {
+    "category": "AI",
     "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
     "link": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/03/12/1134207/the-download-china-openclaw-ai-craze-us-battery-industry-downturn/"
   },
   {
-    "category": "AI",
-    "title": "Pragmatic by design: Engineering AI for the real world",
-    "link": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/"
-  },
-  {
     "category": "WORLD",
-    "title": "Mission accomplished? The 2003 boast that haunts today's Iran conflict",
-    "link": "https://www.bbc.com/news/articles/c1e9yy84we8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
-    "link": "https://www.bbc.com/news/articles/cdxg599655vo?at_medium=RSS&at_campaign=rss"
+    "title": "Four crew members killed after US refuelling plane crashes in Iraq",
+    "link": "https://www.bbc.com/news/articles/cy0dz5ql17vo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "'There's no hiding place on a ship': The sailors stranded in the Gulf",
     "link": "https://www.bbc.com/news/articles/ce3g0vz223no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Bodies of 84 Iranian sailors killed in US torpedo strike to be repatriated",
+    "link": "https://www.bbc.com/news/articles/c363lk4xk07o?at_medium=RSS&at_campaign=rss"
   }
 ]
