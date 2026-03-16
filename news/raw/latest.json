@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Securing digital assets against future threats",
+    "link": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/"
+  },
+  {
+    "category": "AI",
     "title": "Why physical AI is becoming manufacturing’s next advantage",
     "link": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/"
   },
@@ -23,16 +28,6 @@
     "category": "AI",
     "title": "The Download: how AI is used for military targeting, and the Pentagon’s war on Claude",
     "link": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/"
-  },
-  {
-    "category": "AI",
-    "title": "Future AI chips could be built on glass",
-    "link": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/"
-  },
-  {
-    "category": "WORLD",
-    "title": "'A new norm': BBC visits Doha market starting to fill up again two weeks into Iran war",
-    "link": "https://www.bbc.com/news/videos/cp32gez414yo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -43,5 +38,10 @@
     "category": "WORLD",
     "title": "How US groups are driving a new generation of anti-abortion activism in the UK",
     "link": "https://www.bbc.com/news/articles/cx2dl5j0w23o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "TikTok and Meta risked safety to win algorithm arms race, whistleblowers say",
+    "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss"
   }
 ]
