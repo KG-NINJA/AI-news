@@ -16,7 +16,12 @@
   },
   {
     "category": "AI",
-    "title": "A $5 million prize awaits proof that quantum computers can solve health care problems",
+    "title": "The Download: Quantum computing for health, and why the world doesn’t recycle more nuclear waste",
+    "link": "https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/"
+  },
+  {
+    "category": "AI",
+    "title": "Can quantum computers now solve health care problems? We’ll soon find out.",
     "link": "https://www.technologyreview.com/2026/03/19/1134409/a-5-million-prize-awaits-proof-that-quantum-computers-can-solve-health-care-problems/"
   },
   {
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/03/19/1134399/nuclear-waste-reprocessing/"
   },
   {
-    "category": "AI",
-    "title": "The Download: The Pentagon’s new AI plans, and next-gen nuclear reactors",
-    "link": "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors/"
+    "category": "WORLD",
+    "title": "Are US and Israel aligned on Iran war? Deciphering Trump's post after gas field attacks",
+    "link": "https://www.bbc.com/news/articles/c8x7leknlywo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "US intelligence chief says Iran's regime 'intact' but 'degraded'",
-    "link": "https://www.bbc.com/news/articles/c1d6dk569w6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Gas price soars 25% after strikes on Qatar hub",
-    "link": "https://www.bbc.com/news/articles/c78x83lpgngo?at_medium=RSS&at_campaign=rss"
+    "title": "Spain's king welcomes Mexico's World Cup invite after 'abuse' comments",
+    "link": "https://www.bbc.com/news/articles/cvglew9p891o?at_medium=RSS&at_campaign=rss"
   }
 ]
