@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot",
+    "link": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/"
+  },
+  {
+    "category": "AI",
     "title": "OpenAI is throwing everything into building a fully automated researcher",
     "link": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/"
   },
   {
-    "category": "AI",
-    "title": "The Download: Quantum computing for health, and why the world doesn’t recycle more nuclear waste",
-    "link": "https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/"
-  },
-  {
     "category": "WORLD",
-    "title": "Russia, China and the US – the global winners and losers of the Iran war",
-    "link": "https://www.bbc.com/news/articles/c3wlwnn05zqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Norway's crown princess breaks silence on Epstein links: 'I was manipulated and deceived'",
+    "title": "Norway's crown princess breaks silence, claiming she was 'manipulated and deceived' by Epstein",
     "link": "https://www.bbc.com/news/articles/cde5y63y3n7o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Hungary's Orbán accused of disloyalty and blackmail over Ukraine loan veto",
-    "link": "https://www.bbc.com/news/articles/cq6jrvgqeejo?at_medium=RSS&at_campaign=rss"
+    "title": "Israel strikes Syria after Druze clashes",
+    "link": "https://www.bbc.com/news/articles/c248pgn158go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "BTS return from military service - but does their album live up to the hype?",
+    "link": "https://www.bbc.com/news/articles/c070eg32dryo?at_medium=RSS&at_campaign=rss"
   }
 ]
