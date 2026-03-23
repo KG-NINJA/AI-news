@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Bay Area’s animal welfare movement wants to recruit AI",
+    "link": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot",
     "link": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/"
   },
   {
-    "category": "AI",
-    "title": "Mind-altering substances are (still) falling short in clinical trials",
-    "link": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/"
+    "category": "WORLD",
+    "title": "Two pilots dead after plane and ground vehicle collide at New York's LaGuardia Airport",
+    "link": "https://www.bbc.com/news/articles/cy01g522ww4o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Asia stocks slide as US and Iran threaten to escalate war",
+    "title": "Oil prices plunge after Trump says talks have been held to end war",
     "link": "https://www.bbc.com/news/articles/czex56kwxxzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Israel to expand ground and air attacks against Hezbollah in Lebanon",
     "link": "https://www.bbc.com/news/articles/c30rl05evd8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "France's Socialists hold onto power in major cities in election boost for mainstream",
-    "link": "https://www.bbc.com/news/articles/crk14m7mjddo?at_medium=RSS&at_campaign=rss"
   }
 ]
