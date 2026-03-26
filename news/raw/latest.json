@@ -16,32 +16,32 @@
   },
   {
     "category": "AI",
+    "title": "The snow gods: How a couple of ski bums built the internet’s best weather app",
+    "link": "https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app/"
+  },
+  {
+    "category": "AI",
+    "title": "Are high gas prices good news for EVs? It’s complicated.",
+    "link": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/"
+  },
+  {
+    "category": "AI",
     "title": "Roundtables: The Next Era of Space Exploration",
     "link": "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/"
   },
   {
-    "category": "AI",
-    "title": "Why this battery company is pivoting to AI",
-    "link": "https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/"
-  },
-  {
-    "category": "AI",
-    "title": "This startup wants to change how mathematicians do math",
-    "link": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/"
-  },
-  {
     "category": "WORLD",
-    "title": "Meta and YouTube found liable in landmark social media addiction trial",
-    "link": "https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Who wants what and why from US-Iran peace talks?",
+    "title": "Are the US and Iran holding peace talks, and what do both sides want?",
     "link": "https://www.bbc.com/news/articles/cm29l9r68j8o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Prepare for turbulence - how a prolonged Middle East conflict could reshape how we fly",
     "link": "https://www.bbc.com/news/articles/cn08x9lw0pzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Campaigners welcome Meta and YouTube's defeat in landmark social media addiction trial",
+    "link": "https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&at_campaign=rss"
   }
 ]
