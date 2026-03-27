@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Download: the internet’s best weather app, and why people freeze their brains",
+    "link": "https://www.technologyreview.com/2026/03/27/1134755/the-download-best-weather-forecasting-app-why-people-freeze-brains/"
+  },
+  {
+    "category": "AI",
     "title": "Here’s why some people choose cryonics to store their bodies and brains after death",
     "link": "https://www.technologyreview.com/2026/03/27/1134705/cryonics-store-bodies-brains-after-death/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/03/26/1134697/the-download-battery-ai-pivot-new-ai-tool-math/"
   },
   {
-    "category": "AI",
-    "title": "The snow gods: How a couple of ski bums built the internet’s best weather app",
-    "link": "https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app/"
-  },
-  {
     "category": "WORLD",
-    "title": "'My daughter is under the rubble': Inside Tehran as civilian toll of strikes rises",
-    "link": "https://www.bbc.com/news/articles/cn0w1qxzd4xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Marco Rubio meets G7 counterparts amid Iran war",
-    "link": "https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss"
+    "title": "Is Trump's pause on attacking Iranian energy for diplomacy or an escalation?",
+    "link": "https://www.bbc.com/news/articles/c2evg2m3ye2o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "UN human rights chief calls on US to conclude probe into Iran school strike",
     "link": "https://www.bbc.com/news/articles/c75kzk3lgl5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Spanish woman who died through euthanasia failed by state, say critics",
+    "link": "https://www.bbc.com/news/articles/c4g8w4xp97jo?at_medium=RSS&at_campaign=rss"
   }
 ]
