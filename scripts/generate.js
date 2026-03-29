@@ -21,7 +21,7 @@ async function run(){
     }
 
     const data = JSON.parse(
-      fs.readFileSync("news/raw/latest.json","utf8")
+      await fs.promises.readFile("news/raw/latest.json","utf8")
     )
 
     const ai = data.filter(i=>i.category==="AI").slice(0,3)
@@ -75,11 +75,11 @@ ${worldText}
 
     const text = json.candidates[0].content.parts[0].text
 
-    fs.mkdirSync("docs",{recursive:true})
+    await fs.promises.mkdir("docs",{recursive:true})
 
     const filename = "docs/article-"+Date.now()+".html"
 
-    fs.writeFileSync(filename,`
+    await fs.promises.writeFile(filename,`
 <!DOCTYPE html>
 <html>
 <head>

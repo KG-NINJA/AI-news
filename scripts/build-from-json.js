@@ -1,26 +1,27 @@
 import fs from "fs"
 
-const data = JSON.parse(
-  fs.readFileSync("news/raw/latest.json","utf8")
-)
+async function run() {
+  const data = JSON.parse(
+    await fs.promises.readFile("news/raw/latest.json","utf8")
+  )
 
-let list = ""
+  let list = ""
 
-data.forEach(item => {
+  data.forEach(item => {
 
-  list += `
-    <li>
-      <span style="font-weight:bold;color:${item.category==="AI"?"#0077cc":"#cc3300"}">
-        [${item.category}]
-      </span>
-      <a href="${item.link}" target="_blank">
-        ${item.title}
-      </a>
-    </li>
-  `
-})
+    list += `
+      <li>
+        <span style="font-weight:bold;color:${item.category==="AI"?"#0077cc":"#cc3300"}">
+          [${item.category}]
+        </span>
+        <a href="${item.link}" target="_blank">
+          ${item.title}
+        </a>
+      </li>
+    `
+  })
 
-const html = `
+  const html = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,7 +66,10 @@ ${list}
 </html>
 `
 
-fs.mkdirSync("docs",{recursive:true})
-fs.writeFileSync("docs/index.html", html)
+  await fs.promises.mkdir("docs",{recursive:true})
+  await fs.promises.writeFile("docs/index.html", html)
 
-console.log("HTML generated from latest.json")
+  console.log("HTML generated from latest.json")
+}
+
+run().catch(e => console.error(e))

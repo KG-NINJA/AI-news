@@ -1,40 +1,41 @@
 import fs from "fs"
 
-const docsDir = "docs"
+async function run() {
+  const docsDir = "docs"
 
-// RSS一覧
-let listRss = ""
-const rawData = JSON.parse(
-  fs.readFileSync("news/raw/latest.json","utf8")
-)
+  // RSS一覧
+  let listRss = ""
+  const rawData = JSON.parse(
+    await fs.promises.readFile("news/raw/latest.json","utf8")
+  )
 
-rawData.forEach(item => {
-  listRss += `
-    <li>
-      <span style="font-weight:bold;color:${item.category==="AI"?"#0077cc":"#cc3300"}">
-        [${item.category}]
-      </span>
-      <a href="${item.link}" target="_blank">${item.title}</a>
-    </li>
-  `
-})
+  rawData.forEach(item => {
+    listRss += `
+      <li>
+        <span style="font-weight:bold;color:${item.category==="AI"?"#0077cc":"#cc3300"}">
+          [${item.category}]
+        </span>
+        <a href="${item.link}" target="_blank">${item.title}</a>
+      </li>
+    `
+  })
 
-// 最新考察1件だけ表示（短め前提）
-let latestArticleHtml = ""
-const files = fs.readdirSync(docsDir)
-  .filter(f => f.startsWith("article-") && f.endsWith(".html"))
-  .sort()
-  .reverse()
+  // 最新考察1件だけ表示（短め前提）
+  let latestArticleHtml = ""
+  const files = (await fs.promises.readdir(docsDir))
+    .filter(f => f.startsWith("article-") && f.endsWith(".html"))
+    .sort()
+    .reverse()
 
-if(files.length > 0){
-  const latest = fs.readFileSync(docsDir+"/"+files[0],"utf8")
+  if(files.length > 0){
+    const latest = await fs.promises.readFile(docsDir+"/"+files[0],"utf8")
 
-  // body内だけ抽出
-  const match = latest.match(/<body[^>]*>([\s\S]*)<\/body>/i)
-  latestArticleHtml = match ? match[1] : ""
-}
+    // body内だけ抽出
+    const match = latest.match(/<body[^>]*>([\s\S]*)<\/body>/i)
+    latestArticleHtml = match ? match[1] : ""
+  }
 
-const html = `
+  const html = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,5 +92,8 @@ ${latestArticleHtml}
 </html>
 `
 
-fs.writeFileSync("docs/index.html", html)
-console.log("Index rebuilt (RSS + Short Insight)")
+  await fs.promises.writeFile("docs/index.html", html)
+  console.log("Index rebuilt (RSS + Short Insight)")
+}
+
+run().catch(e => console.error(e))

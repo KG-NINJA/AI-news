@@ -55,10 +55,10 @@ async function run() {
     }
 
     // 保存ディレクトリ作成
-    fs.mkdirSync("news/raw", { recursive: true })
+    await fs.promises.mkdir("news/raw", { recursive: true })
 
     // 保存
-    fs.writeFileSync(
+    await fs.promises.writeFile(
       "news/raw/latest.json",
       JSON.stringify(items, null, 2)
     )
