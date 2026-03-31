@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Shifting to AI model customization is an architectural imperative",
+    "link": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: AI health tools and the Pentagon’s Anthropic culture war",
     "link": "https://www.technologyreview.com/2026/03/31/1134934/the-download-testing-ai-health-tools-pentagon-anthropic-culture-war-backfires/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/"
   },
   {
-    "category": "AI",
-    "title": "There are more AI health tools than ever—but how well do they work?",
-    "link": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/"
+    "category": "WORLD",
+    "title": "Iran using children in security roles in war, reports and witnesses say",
+    "link": "https://www.bbc.com/news/articles/c9wqgjn7x89o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
+    "link": "https://www.bbc.com/news/articles/c5yx8knpr5no?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "China bans storing cremated remains in empty 'bone ash apartments'",
     "link": "https://www.bbc.com/news/articles/cm25ynex2zxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Sexual violence part of 'everyday life' in parts of Sudan, charity says",
-    "link": "https://www.bbc.com/news/articles/c5ywgn2n3nqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Eurovision Song Contest launches first-ever Asia edition",
-    "link": "https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&at_campaign=rss"
   }
 ]
