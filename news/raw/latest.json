@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Fuel prices are soaring. Plastic could be next.",
+    "link": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: gig workers training humanoids, and better AI benchmarks",
     "link": "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/"
   },
   {
-    "category": "AI",
-    "title": "Shifting to AI model customization is an architectural imperative",
-    "link": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Watch the moment Artemis II blasts into space",
-    "link": "https://www.bbc.com/news/videos/cwydnrmggnno?at_medium=RSS&at_campaign=rss"
-  },
-  {
     "category": "WORLD",
     "title": "Trump leaves key questions unanswered as he seeks to calm nerves over Iran war",
     "link": "https://www.bbc.com/news/articles/cnv81ven263o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Magnitude 7.4 earthquake hits off Indonesia, killing one",
-    "link": "https://www.bbc.com/news/articles/cn53krrrr24o?at_medium=RSS&at_campaign=rss"
+    "title": "'Oh my goodness, that is spectacular!': See BBC science editor react to launch",
+    "link": "https://www.bbc.com/news/videos/c05d6pprdleo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Man dies in storm as Saharan dust shrouds Crete",
+    "link": "https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&at_campaign=rss"
   }
 ]
