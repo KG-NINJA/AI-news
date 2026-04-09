@@ -16,18 +16,23 @@
   },
   {
     "category": "AI",
+    "title": "Is fake grass a bad idea? The AstroTurf wars are far from over.",
+    "link": "https://www.technologyreview.com/2026/04/09/1135092/astroturf-fake-grass-artificial-heated-debates/"
+  },
+  {
+    "category": "AI",
+    "title": "Desalination technology, by the numbers",
+    "link": "https://www.technologyreview.com/2026/04/09/1135495/desalination-technology-numbers/"
+  },
+  {
+    "category": "AI",
     "title": "Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why",
     "link": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/"
   },
   {
-    "category": "AI",
-    "title": "The Download: water threats in Iran and AI’s impact on what entrepreneurs make",
-    "link": "https://www.technologyreview.com/2026/04/08/1135405/the-download-water-threats-iran-ais-impact-on-entrepreneurs-make/"
-  },
-  {
-    "category": "AI",
-    "title": "Desalination plants in the Middle East are increasingly vulnerable",
-    "link": "https://www.technologyreview.com/2026/04/07/1135235/desalination-technology-water/"
+    "category": "WORLD",
+    "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
+    "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
-    "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "What we know about the two-week ceasefire between the US and Iran ",
-    "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss"
+    "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+    "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss"
   }
 ]
