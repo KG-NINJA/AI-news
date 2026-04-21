@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Building agent-first governance and security",
+    "link": "https://www.technologyreview.com/2026/04/21/1136158/building-agent-first-governance-and-security/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: turning down human noise, and LA’s stunning subway upgrade",
     "link": "https://www.technologyreview.com/2026/04/21/1136246/the-download-human-noise-la-subway-upgrade/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/04/21/1135231/digging-for-truth-north-pole-past-seabed/"
   },
   {
-    "category": "AI",
-    "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
-    "link": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/"
+    "category": "WORLD",
+    "title": "Iran sees mass redundancies from war with US and Israel",
+    "link": "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Trump says US will not lift Hormuz blockade until deal made with Iran",
-    "link": "https://www.bbc.com/news/articles/cdxd88r2wjzo?at_medium=RSS&at_campaign=rss"
+    "title": "Israeli soldiers punished over vandalism of Jesus statue in Lebanon",
+    "link": "https://www.bbc.com/news/articles/cew790ppn8jo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Zelensky says failure of US envoys to visit Kyiv is 'disrespectful'",
     "link": "https://www.bbc.com/news/articles/cd9v420y190o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Japan loosens arms export rules in break from post-WW2 pacifism",
-    "link": "https://www.bbc.com/news/articles/clyx4vlqy4vo?at_medium=RSS&at_campaign=rss"
   }
 ]
