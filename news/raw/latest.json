@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Three reasons why DeepSeek’s new model matters",
+    "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: supercharged scams and studying AI healthcare",
     "link": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/"
   },
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/"
   },
   {
-    "category": "AI",
-    "title": "The Download: introducing the Nature issue",
-    "link": "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/"
+    "category": "WORLD",
+    "title": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+    "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -38,10 +43,5 @@
     "category": "WORLD",
     "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
     "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Who is making decisions in Iran?",
-    "link": "https://www.bbc.com/news/articles/cm29m732vgno?at_medium=RSS&at_campaign=rss"
   }
 ]
