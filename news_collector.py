@@ -3,11 +3,12 @@ import datetime
 import os
 import logging
 
+JST_TZ = datetime.timezone(datetime.timedelta(hours=9))
+
 def get_jst_time():
     """Returns the current time in JST."""
     utc_now = datetime.datetime.now(datetime.timezone.utc)
-    jst_tz = datetime.timezone(datetime.timedelta(hours=9))
-    return utc_now.astimezone(jst_tz)
+    return utc_now.astimezone(JST_TZ)
 
 def fetch_ai_news():
     # Google News RSS URL for "AI" (Artificial Intelligence) in Japanese
@@ -116,12 +117,11 @@ def generate_html(entries):
             # Re-format published date for display
             published_text = entry.published
             if hasattr(entry, 'published_parsed'):
-                 try:
+                try:
                     dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
-                    jst_tz = datetime.timezone(datetime.timedelta(hours=9))
-                    dt_jst = dt_utc.astimezone(jst_tz)
+                    dt_jst = dt_utc.astimezone(JST_TZ)
                     published_text = dt_jst.strftime("%Y/%m/%d %H:%M")
-                 except:
+                except:
                     pass
 
             html_parts.append(f"""

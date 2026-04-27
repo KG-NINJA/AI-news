@@ -1,6 +1,12 @@
 import unittest
 from unittest.mock import MagicMock, patch
 import datetime
+import sys
+
+# Mock feedparser before importing news_collector
+mock_feedparser = MagicMock()
+sys.modules['feedparser'] = mock_feedparser
+
 import news_collector
 
 class TestNewsCollector(unittest.TestCase):
