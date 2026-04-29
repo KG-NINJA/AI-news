@@ -16,18 +16,23 @@
   },
   {
     "category": "AI",
+    "title": "The Download: storing nuclear waste and orchestrating agents",
+    "link": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/"
+  },
+  {
+    "category": "AI",
+    "title": "It’s time to make a plan for nuclear waste",
+    "link": "https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: Musk and Altman’s legal showdown, and AI’s profit problem",
     "link": "https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/"
   },
   {
-    "category": "AI",
-    "title": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
-    "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
-  },
-  {
-    "category": "AI",
-    "title": "The missing step between hype and profit",
-    "link": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/"
+    "category": "WORLD",
+    "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+    "link": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -38,10 +43,5 @@
     "category": "WORLD",
     "title": "Comey charged with threatening Trump's life in Instagram post",
     "link": "https://www.bbc.com/news/articles/cvgz4rvlem5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Faisal Islam: Why the UAE's exit from Opec is a big deal",
-    "link": "https://www.bbc.com/news/articles/cj4pxyklw1jo?at_medium=RSS&at_campaign=rss"
   }
 ]
