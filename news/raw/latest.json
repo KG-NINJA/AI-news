@@ -16,18 +16,23 @@
   },
   {
     "category": "AI",
+    "title": "Cyber-Insecurity in the AI Era",
+    "link": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/"
+  },
+  {
+    "category": "AI",
+    "title": "Operationalizing AI for Scale and Sovereignty",
+    "link": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: a new Christian phone network, and debugging LLMs",
     "link": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/"
   },
   {
-    "category": "AI",
-    "title": "Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining",
-    "link": "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining/"
-  },
-  {
-    "category": "AI",
-    "title": "Trump’s mass firing just dealt another blow to American science",
-    "link": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/"
+    "category": "WORLD",
+    "title": "Trump repeats that he is 'not happy' with Iran as deadline to seek approval for war looms",
+    "link": "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Violence in Australian town after arrest of man over girl's murder",
-    "link": "https://www.bbc.com/news/articles/cddp4j7p8pzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "British couple jailed in Iran: 'We're likely to be here for a long time'",
-    "link": "https://www.bbc.com/news/articles/c202pl60kv9o?at_medium=RSS&at_campaign=rss"
+    "title": "French PM fuels row with trip to buy baguettes",
+    "link": "https://www.bbc.com/news/articles/czx2rnk9y9go?at_medium=RSS&at_campaign=rss"
   }
 ]
