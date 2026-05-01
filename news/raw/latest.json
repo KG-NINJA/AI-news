@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
+    "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/"
+  },
+  {
+    "category": "AI",
     "title": "This startup’s new mechanistic interpretability tool lets you debug LLMs",
     "link": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/"
   },
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/"
   },
   {
-    "category": "AI",
-    "title": "The Download: storing nuclear waste and orchestrating agents",
-    "link": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/"
+    "category": "WORLD",
+    "title": "Violence in Australian town after arrest of man over girl's murder",
+    "link": "https://www.bbc.com/news/articles/cddp4j7p8pzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
-    "link": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "'How are we going to get back home?' Islamist group tightens blockade on Mali capital",
-    "link": "https://www.bbc.com/news/articles/cg4pq3zxnpqo?at_medium=RSS&at_campaign=rss"
+    "title": "Venice Biennale jury resigns days before start of exhibition",
+    "link": "https://www.bbc.com/news/articles/c78qdg4g80eo?at_medium=RSS&at_campaign=rss"
   }
 ]
