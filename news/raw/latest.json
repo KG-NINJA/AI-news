@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Here’s what you need to know about the cruise ship hantavirus outbreak",
+    "link": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: AI malaise and babymaking tech",
     "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/"
   },
   {
-    "category": "AI",
-    "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
-    "link": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/"
-  },
-  {
     "category": "WORLD",
-    "title": "Trump says US-Iran ceasefire still in place after exchange of fire in Strait of Hormuz",
-    "link": "https://www.bbc.com/news/articles/c626zyywxjno?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-    "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss"
+    "title": "Iran accuses US of 'reckless military adventure'",
+    "link": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Russia and Ukraine accuse each other of breaching Victory Day ceasefire",
     "link": "https://www.bbc.com/news/articles/c202zn5gg0lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Worldwide race to trace passengers from hantavirus-hit cruise ship",
+    "link": "https://www.bbc.com/news/articles/clyp1505p84o?at_medium=RSS&at_campaign=rss"
   }
 ]
