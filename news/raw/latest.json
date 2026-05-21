@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Anthropic’s Code with Claude showed off coding’s future—whether you like it or not",
+    "link": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: online safety’s future and climate tech’s big pivot",
     "link": "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals/"
   },
   {
-    "category": "AI",
-    "title": "Tech researchers are suing the Trump administration over the future of online safety",
-    "link": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/"
+    "category": "WORLD",
+    "title": "Iran steps up claim to control Strait of Hormuz",
+    "link": "https://www.bbc.com/news/articles/cq5py64gvwzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "China says US should stop 'threats' against Cuba after ex-leader charged",
-    "link": "https://www.bbc.com/news/articles/clype0x7pkgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
-    "link": "https://www.bbc.com/news/articles/czd2qmdvmq6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Gaza flotilla activists set for deportation from Israel as backlash grows ",
+    "title": "Gaza flotilla activists deported from Israel as backlash over treatment grows ",
     "link": "https://www.bbc.com/news/articles/c9d3v2d6p1eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Russia and China condemn US over indictment of former Cuban leader",
+    "link": "https://www.bbc.com/news/articles/clype0x7pkgo?at_medium=RSS&at_campaign=rss"
   }
 ]
