@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Rethinking organizational design in the age of agentic AI",
+    "link": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: puncturing the AI jobs panic",
     "link": "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/"
   },
   {
-    "category": "AI",
-    "title": "It’s time to address the looming crisis in entry-level work.",
-    "link": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/"
+    "category": "WORLD",
+    "title": "Iran condemns US strikes as 'gross violation' of ceasefire",
+    "link": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "US launches new strikes on Iran, targeting missile sites and boats",
-    "link": "https://www.bbc.com/news/articles/cvgzzn4y1n8o?at_medium=RSS&at_campaign=rss"
+    "title": "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
+    "link": "https://www.bbc.com/news/articles/c1e22n55zn4o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Four killed as school minibus collides with train in Belgium",
     "link": "https://www.bbc.com/news/articles/c70vvd17rg7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Netanyahu says Israel will intensify strikes against Hezbollah",
-    "link": "https://www.bbc.com/news/articles/cewppdk1187o?at_medium=RSS&at_campaign=rss"
   }
 ]
