@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Download: keeping up with AI, and the future of IVF",
+    "link": "https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/"
+  },
+  {
+    "category": "AI",
     "title": "Rethinking organizational design in the age of agentic AI",
     "link": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/"
   },
   {
-    "category": "AI",
-    "title": "A reality check on the AI jobs hysteria",
-    "link": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/"
+    "category": "WORLD",
+    "title": "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns",
+    "link": "https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Israel says new head of Hamas' military wing killed in Gaza City strikes",
+    "title": "Israeli strike in Gaza City kills new head of Hamas's military wing",
     "link": "https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Dozens killed in Lebanon as Israel intensifies strikes",
-    "link": "https://www.bbc.com/news/articles/cx211rgngp0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Iran condemns US strikes as 'gross violation' of ceasefire",
-    "link": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss"
+    "title": "Five people found alive after week trapped in flooded Laos cave ",
+    "link": "https://www.bbc.com/news/articles/crkpvxrxgp6o?at_medium=RSS&at_campaign=rss"
   }
 ]
