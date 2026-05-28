@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "How a new extraction process could unlock the world’s lithium",
+    "link": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: climate tech goes public and the AI Hype Index returns",
     "link": "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/"
   },
   {
-    "category": "AI",
-    "title": "The AI Hype Index: AI gets booed in graduation season",
-    "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/"
+    "category": "WORLD",
+    "title": "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
+    "link": "https://www.bbc.com/news/articles/cn9p40en4ngo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Are US and Iran close to peace or sliding back to war?",
+    "link": "https://www.bbc.com/news/articles/cze29764067o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Iran says it targeted American base after fresh US strikes",
     "link": "https://www.bbc.com/news/articles/c98r2qy5809o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Man arrested after three injured in stabbing at Swiss train station",
-    "link": "https://www.bbc.com/news/articles/cddpllqv49qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "US justice department launches criminal investigation into Trump accuser E Jean Carroll, reports say",
-    "link": "https://www.bbc.com/news/articles/clyp77jd407o?at_medium=RSS&at_campaign=rss"
   }
 ]
