@@ -16,18 +16,23 @@
   },
   {
     "category": "AI",
-    "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
-    "link": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/"
+    "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
+    "link": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/"
   },
   {
     "category": "AI",
-    "title": "How courts are coping with a flood of AI-generated lawsuits",
-    "link": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/"
+    "title": "Are AI chatbots making us lose control of our brains?",
+    "link": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/"
   },
   {
     "category": "AI",
-    "title": "How virtual power plants could provide energy for data centers",
-    "link": "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/"
+    "title": "The Meta hack shows there’s more to AI security than Mythos",
+    "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/"
+  },
+  {
+    "category": "WORLD",
+    "title": "Ukraine strikes cargo ships and admits Romania drone blast as Putin prepares for key speech",
+    "link": "https://www.bbc.com/news/articles/c707098wkzpo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
-    "link": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump hits back at 'unpatriotic' vote after House rebukes him over Iran",
-    "link": "https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss"
+    "title": "Fury in France after child murder suspect's criminal record released",
+    "link": "https://www.bbc.com/news/articles/c1424v7mk8go?at_medium=RSS&at_campaign=rss"
   }
 ]
