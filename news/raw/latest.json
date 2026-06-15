@@ -31,11 +31,6 @@
   },
   {
     "category": "WORLD",
-    "title": "Israeli military says Hezbollah targets struck in Beirut",
-    "link": "https://www.bbc.com/news/articles/czj83zlx1vjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
     "title": "Swiss voters reject 10 million population cap",
     "link": "https://www.bbc.com/news/articles/c20ygjem17zo?at_medium=RSS&at_campaign=rss"
   },
@@ -43,5 +38,10 @@
     "category": "WORLD",
     "title": "Teen shot and buses torched in Manhattan after historic NBA win for Knicks",
     "link": "https://www.bbc.com/news/articles/c8623n5pq2vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Protesters clash with police ahead of G7 summit in Geneva",
+    "link": "https://www.bbc.com/news/videos/crkvek3dnrgo?at_medium=RSS&at_campaign=rss"
   }
 ]
