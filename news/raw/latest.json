@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Repositioning retail for the AI era",
+    "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law",
     "link": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/"
   },
   {
-    "category": "AI",
-    "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
-    "link": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/"
+    "category": "WORLD",
+    "title": "Earthquake is devastating blow to Venezuela at time of uncertainty  ",
+    "link": "https://www.bbc.co.uk/news/articles/c3vynpw7rk4o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "'I thought I was going to die' - Venezuelans describe earthquake panic",
-    "link": "https://www.bbc.co.uk/news/articles/czj8vjvmz38o?at_medium=RSS&at_campaign=rss"
+    "title": "People flee as building collapses on Caracas outskirts",
+    "link": "https://www.bbc.co.uk/news/videos/c78y1e3606vo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Europe's heatwave shifts east as France raises health alert to highest level",
+    "title": "France warns even young people's health at risk as Europe's heatwave shifts east",
     "link": "https://www.bbc.co.uk/news/articles/cwy0pdq89zno?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump asks Congress for billions for Iran war, after tension with Republicans",
-    "link": "https://www.bbc.co.uk/news/articles/c1eydwldzdjo?at_medium=RSS&at_campaign=rss"
   }
 ]
