@@ -16,23 +16,18 @@
   },
   {
     "category": "AI",
+    "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+    "link": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/"
+  },
+  {
+    "category": "AI",
+    "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+    "link": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/"
+  },
+  {
+    "category": "AI",
     "title": "Repositioning retail for the AI era",
     "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law",
-    "link": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/"
-  },
-  {
-    "category": "AI",
-    "title": "What Europe’s heat wave means for the power grid",
-    "link": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Rescuers search rubble for survivors as Venezuela earthquakes kill at least 235",
-    "link": "https://www.bbc.co.uk/news/articles/cjegdqw5d3yo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -41,7 +36,12 @@
   },
   {
     "category": "WORLD",
-    "title": "People flee as building collapses on Caracas outskirts",
-    "link": "https://www.bbc.co.uk/news/videos/c78y1e3606vo?at_medium=RSS&at_campaign=rss"
+    "title": "Aerial footage reveals destruction in coastal Venezuela",
+    "link": "https://www.bbc.co.uk/news/videos/c75y1kd16qdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+    "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss"
   }
 ]
