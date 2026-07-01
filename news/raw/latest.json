@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+    "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
     "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
   },
   {
-    "category": "AI",
-    "title": "Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body",
-    "link": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/"
+    "category": "WORLD",
+    "title": "'Time for him to pay' - Carroll calls on Trump to pay $5m after president's appeal fails",
+    "link": "https://www.bbc.co.uk/news/articles/cn4r8n3ek80o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Trump made more than $1bn from crypto in first year back in office",
-    "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss"
+    "title": "Ukrainian charged in Germany over Nord Stream blasts",
+    "link": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Three die in Mexico City World Cup celebrations",
-    "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "At least five killed in fire at Antwerp apartment block, say police",
-    "link": "https://www.bbc.co.uk/news/articles/c621dx0vl7xo?at_medium=RSS&at_campaign=rss"
+    "title": "Controversial bishops ordained as Pope warns of 'schism' in Catholic Church",
+    "link": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o?at_medium=RSS&at_campaign=rss"
   }
 ]
