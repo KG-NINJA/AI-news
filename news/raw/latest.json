@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Achieving operational excellence with AI",
+    "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/"
+  },
+  {
+    "category": "AI",
     "title": "Teaching AI to run with the turbines",
     "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/"
   },
   {
-    "category": "AI",
-    "title": "Why California’s carbon manure math doesn’t add up",
-    "link": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/"
-  },
-  {
     "category": "WORLD",
     "title": "Venezuela quake survivor pulled out alive after eight days",
     "link": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "'Most massive' Russian attack on Kyiv kills at least 20",
+    "title": "'Most massive' Russian attack on Kyiv kills at least 25",
     "link": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "People smuggler convicted in France found by BBC living in UK and seeking asylum",
-    "link": "https://www.bbc.co.uk/news/articles/clye9zn0y1ro?at_medium=RSS&at_campaign=rss"
+    "title": "Bomb blast at Damascus cafe kills six, Syrian state media say",
+    "link": "https://www.bbc.co.uk/news/articles/cn0vwxyz40zo?at_medium=RSS&at_campaign=rss"
   }
 ]
