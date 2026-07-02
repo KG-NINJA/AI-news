@@ -37,11 +37,12 @@ async function safeParse(feed) {
 
 async function run() {
   try {
+    const results = await Promise.all(feeds.map(feed => safeParse(feed)))
     let items = []
 
-    for (const feed of feeds) {
-      const data = await safeParse(feed)
-      if (!data) continue
+    results.forEach((data, index) => {
+      if (!data) return
+      const feed = feeds[index]
 
       data.items.slice(0, 3).forEach(item => {
         if (!item.title || !item.link) return
@@ -52,7 +53,7 @@ async function run() {
           link: item.link
         })
       })
-    }
+    })
 
     // 保存ディレクトリ作成
     fs.mkdirSync("news/raw", { recursive: true })
