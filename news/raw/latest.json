@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Sperm donors need limits, says a European fertility group",
+    "link": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/"
+  },
+  {
+    "category": "AI",
     "title": "Anthropic found a hidden space where Claude puzzles over concepts",
     "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/"
   },
   {
-    "category": "AI",
-    "title": "Four nuclear reactors hit a big milestone in the US",
-    "link": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/"
-  },
-  {
     "category": "WORLD",
-    "title": "US and Iran trade attacks as Khamenei is buried",
-    "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Twelve die in wildfire in Spain as heatwave continues in southern Europe",
-    "link": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss"
+    "title": "Huge crowds in Mashhad as Iran's late supreme leader is buried",
+    "link": "https://www.bbc.co.uk/news/articles/c5yzm8m4peeo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Ukrainian agent accused of murdering Monaco bomb suspect changes story",
     "link": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Palestinians mourn Gaza World Cup screenings organiser killed in Israeli strike",
+    "link": "https://www.bbc.co.uk/news/articles/cwylznzjk04o?at_medium=RSS&at_campaign=rss"
   }
 ]
