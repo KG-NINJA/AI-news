@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
     "link": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/"
   },
   {
-    "category": "AI",
-    "title": "EmTech AI 2026: The Rise of the AI Platform",
-    "link": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/"
-  },
-  {
     "category": "WORLD",
-    "title": "Tehran launches more strikes after explosions reported in southern Iran",
+    "title": "US and Iran trade attacks as Khamenei is buried",
     "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Big fall in oil, gas and cargo ships taking US-backed Hormuz route after new strikes",
-    "link": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss"
+    "title": "Twelve die in wildfire in Spain as heatwave continues in southern Europe",
+    "link": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Democrat Graham Platner suspends campaign for key US Senate race after assault allegation",
-    "link": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss"
+    "title": "Ukrainian agent accused of murdering Monaco bomb suspect changes story",
+    "link": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss"
   }
 ]
