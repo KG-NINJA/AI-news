@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Download: a donor conception cap and world models for AI",
+    "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: Claude’s inner workings and OpenAI’s “super app”",
     "link": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/"
   },
   {
-    "category": "AI",
-    "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
-  },
-  {
     "category": "WORLD",
-    "title": "At least 27 killed, 22 critically injured after fire engulfs Bangkok bar",
+    "title": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
     "link": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
-    "link": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss"
+    "title": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
+    "link": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "British couple return to village at heart of deadly Spanish wildfire ",
-    "link": "https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&at_campaign=rss"
+    "title": "Senator Lindsey Graham died of aortic tear, examiner says",
+    "link": "https://www.bbc.co.uk/news/articles/cn75083d472o?at_medium=RSS&at_campaign=rss"
   }
 ]
