@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+    "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
     "link": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/"
   },
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/"
   },
   {
-    "category": "AI",
-    "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
-    "link": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/"
+    "category": "WORLD",
+    "title": "French MPs approve assisted dying law with strict rules after years of argument",
+    "link": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -38,10 +43,5 @@
     "category": "WORLD",
     "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
     "link": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
-    "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss"
   }
 ]
