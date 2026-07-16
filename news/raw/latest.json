@@ -16,32 +16,32 @@
   },
   {
     "category": "AI",
+    "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+    "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/"
+  },
+  {
+    "category": "AI",
+    "title": "Why heat pumps are still so hot in the US",
+    "link": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/"
+  },
+  {
+    "category": "AI",
     "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
     "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
   },
   {
-    "category": "AI",
-    "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
-    "link": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: Claude’s inner workings, and the future of world models",
-    "link": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/"
+    "category": "WORLD",
+    "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+    "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Iran targets military bases as US launches wave of strikes",
-    "link": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
+    "title": "Protests in Ukrainian cities against Zelensky's removal of defence minister",
+    "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Argentina face action over Falklands banner",
-    "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Families of 43 victims await verdict in Genoa bridge disaster",
-    "link": "https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&at_campaign=rss"
+    "title": "Teenager accused of carrying out sabotage actions in Poland for Russia",
+    "link": "https://www.bbc.co.uk/news/articles/cp305dx493do?at_medium=RSS&at_campaign=rss"
   }
 ]
