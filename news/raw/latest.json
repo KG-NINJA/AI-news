@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+    "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents"
+  },
+  {
+    "category": "AI",
     "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
     "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think"
   },
@@ -8,11 +13,6 @@
     "category": "AI",
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
-  },
-  {
-    "category": "AI",
-    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free"
   },
   {
     "category": "AI",
@@ -36,12 +36,12 @@
   },
   {
     "category": "WORLD",
-    "title": "Iran threatens to block more trade routes as US launches fresh strikes",
+    "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
     "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
-    "link": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss"
+    "title": "Argentina face action after waving Falklands banner",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss"
   }
 ]
