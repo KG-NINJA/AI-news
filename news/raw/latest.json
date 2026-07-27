@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before. ",
+    "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/"
+  },
+  {
+    "category": "AI",
     "title": "How lasers could help provide fuel for nuclear reactors",
     "link": "https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/"
   },
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/"
   },
   {
-    "category": "AI",
-    "title": "The path to artificial superintelligence",
-    "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/"
+    "category": "WORLD",
+    "title": "Wildfire now nine miles away from French city of Bordeaux, mayor warns",
+    "link": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Oil price dives as US and Iran pause attacks",
-    "link": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Anger, shock and grief - questions remain in the wake of the Berlin Pride attack",
-    "link": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
+    "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
+    "link": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
   }
 ]
