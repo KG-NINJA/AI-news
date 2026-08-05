@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "NASA’s new dark energy space telescope can also detect killer asteroids",
+    "link": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: US robot restrictions, and ICE’s DNA grab",
     "link": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/"
   },
   {
-    "category": "AI",
-    "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
-    "link": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/"
-  },
-  {
     "category": "WORLD",
-    "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-    "link": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+    "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
     "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Russian ballistic missile strike on Kyiv kills one and injures others",
-    "link": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss"
+    "title": "Perez Hilton recovering in hospital after reports he self-harmed during livestream",
+    "link": "https://www.bbc.co.uk/news/articles/cly5kvdkyjro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Police raid Starbucks Korea headquarters over 'Tank Day' fiasco",
+    "link": "https://www.bbc.co.uk/news/articles/c0kmd4xpr46o?at_medium=RSS&at_campaign=rss"
   }
 ]
