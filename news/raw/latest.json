@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+    "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/"
+  },
+  {
+    "category": "AI",
     "title": "Puzzle Corner",
     "link": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/"
   },
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/"
   },
   {
-    "category": "AI",
-    "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
-    "link": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/"
+    "category": "WORLD",
+    "title": "Ukraine hits two oil refineries deep in Russian territory",
+    "link": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
-    "link": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Indian journalist Tarun Tejpal convicted in 2013 rape case ",
-    "link": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss"
+    "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
+    "link": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss"
   }
 ]
