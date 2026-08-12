@@ -16,23 +16,18 @@
   },
   {
     "category": "AI",
-    "title": "How the “censorship-industrial complex” is changing the Internet and US policy",
+    "title": "The Download: our 35 young innovators and the “censorship-industrial complex”",
+    "link": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/"
+  },
+  {
+    "category": "AI",
+    "title": "How we picked 35 of the world’s top young scientists and engineers",
+    "link": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/"
+  },
+  {
+    "category": "AI",
+    "title": "How the “censorship-industrial complex” is changing the internet and US policy",
     "link": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
-    "link": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/"
-  },
-  {
-    "category": "AI",
-    "title": "AI professors are negotiating the new realities of academic research",
-    "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake ",
-    "link": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -43,5 +38,10 @@
     "category": "WORLD",
     "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
     "link": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
+    "link": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
   }
 ]
