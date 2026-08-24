@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "How to encourage smarter AI use in the classroom",
+    "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: kids outlearning AI, and space travel agents",
     "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
   },
   {
-    "category": "AI",
-    "title": "The Download: threats from space mirrors and credit for AI drugs",
-    "link": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
-    "link": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss"
-  },
-  {
     "category": "WORLD",
     "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
     "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "King of Norway's health has worsened, palace says",
-    "link": "https://www.bbc.co.uk/news/articles/c36lnekj659o?at_medium=RSS&at_campaign=rss"
+    "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+    "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+    "link": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss"
   }
 ]
