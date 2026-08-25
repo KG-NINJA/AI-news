@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "Art and algorithms at Sotheby’s",
+    "link": "https://www.technologyreview.com/2026/08/25/1140908/art-and-algorithms-at-sothebys/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
     "link": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/08/25/1141750/welcome-to-spiderverse-arachnid-webs/"
   },
   {
-    "category": "AI",
-    "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-    "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/"
+    "category": "WORLD",
+    "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+    "link": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "China warns it will protect its interests after US widens sanctions against Iran",
+    "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
     "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Lockerbie bombing trial postponed days before it was due to start",
-    "link": "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "US removes Syria from list of state sponsors of terrorism",
-    "link": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss"
+    "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+    "link": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
   }
 ]
