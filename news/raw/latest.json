@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Orchestration is the new challenge for CX in the age of AI agents",
+    "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents"
+  },
+  {
+    "category": "AI",
     "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
     "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push"
   },
@@ -11,8 +16,8 @@
   },
   {
     "category": "AI",
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+    "title": "The inside story on why OpenAI agents hacked Hugging Face",
+    "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
   },
   {
     "category": "AI",
@@ -25,9 +30,9 @@
     "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/"
   },
   {
-    "category": "AI",
-    "title": "AI models flub these intelligence tests. Can you fare any better?",
-    "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/"
+    "category": "WORLD",
+    "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
+    "link": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -36,12 +41,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "link": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "German airport worker dies of malaria after 'mosquito arrives on plane'",
-    "link": "https://www.bbc.co.uk/news/articles/cz6zwgg9y8go?at_medium=RSS&at_campaign=rss"
+    "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+    "link": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss"
   }
 ]
