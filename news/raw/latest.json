@@ -1,47 +1,47 @@
 [
   {
     "category": "AI",
+    "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+    "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them"
+  },
+  {
+    "category": "AI",
+    "title": "When agents act on their own, governance has to live in the data layer",
+    "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer"
+  },
+  {
+    "category": "AI",
     "title": "Orchestration is the new challenge for CX in the age of AI agents",
     "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents"
   },
   {
     "category": "AI",
-    "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-    "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push"
+    "title": "A startup claims it’s found a drug to make your blood young",
+    "link": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/"
   },
   {
     "category": "AI",
-    "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-    "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think"
+    "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+    "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/"
   },
   {
     "category": "AI",
-    "title": "The inside story on why OpenAI agents hacked Hugging Face",
-    "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
-    "link": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/"
-  },
-  {
-    "category": "AI",
-    "title": "Raised on AI",
-    "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/"
+    "title": "Is Slate Auto’s new electric truck the EV Americans need?",
+    "link": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/"
   },
   {
     "category": "WORLD",
-    "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
-    "link": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss"
+    "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
+    "link": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
-    "link": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
+    "title": "What we know about deadly Nepal-Tibet floods",
+    "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
-    "link": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss"
+    "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+    "link": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss"
   }
 ]
