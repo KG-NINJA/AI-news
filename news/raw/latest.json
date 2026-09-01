@@ -16,18 +16,23 @@
   },
   {
     "category": "AI",
+    "title": "Making the AI-powered case for legacy modernization",
+    "link": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/"
+  },
+  {
+    "category": "AI",
+    "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+    "link": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/"
+  },
+  {
+    "category": "AI",
     "title": "How engineered microbes could help feed the world’s crops",
     "link": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/"
   },
   {
-    "category": "AI",
-    "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-    "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: a secretive antiaging drug and joining virtual power plants",
-    "link": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/"
+    "category": "WORLD",
+    "title": "Germany says Russia behind Leipzig airport drone attack",
+    "link": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -38,10 +43,5 @@
     "category": "WORLD",
     "title": "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
     "link": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
-    "link": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss"
   }
 ]
