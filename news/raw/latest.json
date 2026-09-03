@@ -16,6 +16,11 @@
   },
   {
     "category": "AI",
+    "title": "The Download: rethinking child safety and fossil-fueled farming",
+    "link": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/"
+  },
+  {
+    "category": "AI",
     "title": "Agriculture relies on fossil fuels. It’s costing us.",
     "link": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/"
   },
@@ -25,23 +30,18 @@
     "link": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/"
   },
   {
-    "category": "AI",
-    "title": "Facilitating AI integration with simplicity at scale",
-    "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/"
-  },
-  {
     "category": "WORLD",
     "title": "UN warns of 'supersized' El Niño as countries prepare for impact",
     "link": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Feminist activist and journalist Gloria Steinem dies at 92",
-    "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
+    "title": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+    "link": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-    "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss"
+    "title": "Feminist activist and journalist Gloria Steinem dies, aged 92",
+    "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
   }
 ]
