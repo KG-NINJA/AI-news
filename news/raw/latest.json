@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+    "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: rethinking child safety and fossil-fueled farming",
     "link": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/"
   },
   {
-    "category": "AI",
-    "title": "Scaling agentic AI pilots across the enterprise",
-    "link": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/"
+    "category": "WORLD",
+    "title": "'Layer upon layer of miracles': How Nepal flood survivors were rescued from tunnel",
+    "link": "https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Europe targeted by spiralling campaign of sabotage and Russia is the chief suspect",
+    "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Tensions flare as judge declines to remove juror in Lindsay Clancy trial",
     "link": "https://www.bbc.co.uk/news/articles/c7v4n7pv5epo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Argentine leader says oil firms working off Falklands face sanctions",
-    "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "US investigating if missile hit Iran wedding, Vance says",
-    "link": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss"
   }
 ]
