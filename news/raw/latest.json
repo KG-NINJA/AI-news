@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+    "link": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/"
+  },
+  {
+    "category": "AI",
     "title": "Architecting memory and storage in the AI era",
     "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
   },
@@ -10,9 +15,9 @@
     "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/"
   },
   {
-    "category": "AI",
-    "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-    "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/"
+    "category": "WORLD",
+    "title": "Palestinian parents fear for children's lives at school as settler attacks grow",
+    "link": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -21,12 +26,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Israeli strikes in southern Lebanese village kill nine",
-    "link": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "New videos of man in 9/11 lawsuit reveal extremist links",
-    "link": "https://www.bbc.co.uk/news/articles/cr4vn1e207go?at_medium=RSS&at_campaign=rss"
+    "title": "Thousands turn out in Serbia for funeral of  'Butcher of Bosnia' Ratko Mladić",
+    "link": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o?at_medium=RSS&at_campaign=rss"
   }
 ]
