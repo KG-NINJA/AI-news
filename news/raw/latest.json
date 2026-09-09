@@ -1,32 +1,32 @@
 [
   {
     "category": "AI",
+    "title": "Batteries just broke another record in the US",
+    "link": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/"
+  },
+  {
+    "category": "AI",
+    "title": "Understanding the thermal ceiling in portable power",
+    "link": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/"
+  },
+  {
+    "category": "AI",
     "title": "What OpenAI’s latest controversy tells us about the future of math",
     "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
   },
   {
-    "category": "AI",
-    "title": "The Download: our 35 Innovators Under 35 this year",
-    "link": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/"
-  },
-  {
-    "category": "AI",
-    "title": "This founder is teaching chips how to recycle (their energy)",
-    "link": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/"
+    "category": "WORLD",
+    "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+    "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
-    "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
+    "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
     "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Tycoon to pay ex-wife $1.87bn in record South Korea divorce settlement",
+    "link": "https://www.bbc.co.uk/news/articles/c05re9qg09ro?at_medium=RSS&at_campaign=rss"
   }
 ]
