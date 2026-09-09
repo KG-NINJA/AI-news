@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "What OpenAI’s latest controversy tells us about the future of math",
+    "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: our 35 Innovators Under 35 this year",
     "link": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/"
   },
   {
-    "category": "AI",
-    "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-    "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
-  },
-  {
     "category": "WORLD",
     "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
     "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-    "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+    "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
+    "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Renoir paintings worth millions stolen in French museum heist",
-    "link": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss"
+    "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
+    "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
   }
 ]
