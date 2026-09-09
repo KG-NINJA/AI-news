@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: OpenAI’s turning point for math and a battery record",
+    "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/"
+  },
+  {
+    "category": "AI",
     "title": "Batteries just broke another record in the US",
     "link": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/"
   },
@@ -10,9 +15,9 @@
     "link": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/"
   },
   {
-    "category": "AI",
-    "title": "What OpenAI’s latest controversy tells us about the future of math",
-    "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
+    "category": "WORLD",
+    "title": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+    "link": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -23,10 +28,5 @@
     "category": "WORLD",
     "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
     "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Tycoon to pay ex-wife $1.87bn in record South Korea divorce settlement",
-    "link": "https://www.bbc.co.uk/news/articles/c05re9qg09ro?at_medium=RSS&at_campaign=rss"
   }
 ]
