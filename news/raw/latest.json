@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Meet the under-35s shaping the future of biotech",
+    "link": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
     "link": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/"
   },
   {
-    "category": "AI",
-    "title": "This road map could help us decide whether to deploy solar geoengineering",
-    "link": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/"
+    "category": "WORLD",
+    "title": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
+    "link": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
+    "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
+    "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Can Trump really pay $5,000 to every American adult?",
-    "link": "https://www.bbc.co.uk/news/articles/c8r6vj7r8rko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows ",
-    "link": "https://www.bbc.co.uk/news/articles/cj4jynv59ddo?at_medium=RSS&at_campaign=rss"
+    "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
+    "link": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss"
   }
 ]
