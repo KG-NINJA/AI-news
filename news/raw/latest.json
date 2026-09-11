@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: biotech’s future and cheaper, cleaner steel",
+    "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/"
+  },
+  {
+    "category": "AI",
     "title": "Meet the under-35s shaping the future of biotech",
     "link": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/"
   },
@@ -8,16 +13,6 @@
     "category": "AI",
     "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
     "link": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/"
-  },
-  {
-    "category": "AI",
-    "title": "Powering AI is an architecture problem",
-    "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
-    "link": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -28,5 +23,10 @@
     "category": "WORLD",
     "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
     "link": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Israel says it has destroyed major underground Hezbollah base",
+    "link": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
   }
 ]
