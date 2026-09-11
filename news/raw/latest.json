@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Roundtables: Will AI really kill us all?",
+    "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: biotech’s future and cheaper, cleaner steel",
     "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/"
   },
@@ -10,19 +15,14 @@
     "link": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/"
   },
   {
-    "category": "AI",
-    "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
-    "link": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/"
+    "category": "WORLD",
+    "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-    "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
-    "link": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss"
+    "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+    "link": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
