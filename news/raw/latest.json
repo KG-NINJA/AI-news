@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+    "link": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/"
+  },
+  {
+    "category": "AI",
     "title": "Roundtables: Could AI really kill us all?",
     "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/"
   },
@@ -10,9 +15,9 @@
     "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/"
   },
   {
-    "category": "AI",
-    "title": "Meet the under-35s shaping the future of biotech",
-    "link": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/"
+    "category": "WORLD",
+    "title": "China criticises idea it is in 'malicious competition' over AI",
+    "link": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -21,12 +26,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Trump downplays warnings of AI risks, citing rivalry with China",
-    "link": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Questions mount over what an AI 'slowdown' would look like",
-    "link": "https://www.bbc.co.uk/news/articles/cwyzp47py48o?at_medium=RSS&at_campaign=rss"
+    "title": "Thousands demand end to violence in Mexican cartel hotspot ",
+    "link": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss"
   }
 ]
