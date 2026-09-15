@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "What must happen for AI’s trillion-dollar gamble to pay off",
+    "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/"
+  },
+  {
+    "category": "AI",
     "title": "The AI industry has taken a doomer turn. What now?",
     "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/"
   },
   {
-    "category": "AI",
-    "title": "AI agents blew the whistle on their cheating colleagues",
-    "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
+    "category": "WORLD",
+    "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
+    "link": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "China criticises idea it is in 'malicious competition' over AI",
-    "link": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss"
+    "title": "AI regulation faces political deadlock as calls grow for Congress to act",
+    "link": "https://www.bbc.co.uk/news/articles/ck20989806e9o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Welsh actor Matthew Rhys makes Emmy Awards history with double win",
-    "link": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Nato jets down drone that entered Lithuanian airspace",
-    "link": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+    "title": "Denmark says Russian warship fired flares at military helicopter",
+    "link": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
   }
 ]
