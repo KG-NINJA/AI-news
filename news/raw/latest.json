@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Roundtables: Could AI really kill us all?",
+    "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
     "link": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/"
   },
@@ -8,16 +13,6 @@
     "category": "AI",
     "title": "AI models need more data about biology, and OpenAI is paying to create it",
     "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/"
-  },
-  {
-    "category": "AI",
-    "title": "What’s at stake in AI’s trillion-dollar gamble",
-    "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
-    "link": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -28,5 +23,10 @@
     "category": "WORLD",
     "title": "What weapon could the US have put into space?",
     "link": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Suspected sabotage causes major Netherlands rail disruption",
+    "link": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss"
   }
 ]
