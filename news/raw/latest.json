@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Meet the innovators under 35 shaping climate tech",
+    "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/"
+  },
+  {
+    "category": "AI",
     "title": "Meet a mouse whose brain cortex is made up of human cells",
     "link": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
   },
   {
-    "category": "AI",
-    "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
-    "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/"
+    "category": "WORLD",
+    "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
+    "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "US interest rates raised for first time in three years",
-    "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+    "title": "Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft",
+    "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Snapchat open to putting time limits on teens, boss tells BBC",
-    "link": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Photos show widespread damage at US sites from Iranian attacks",
-    "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss"
+    "title": "Ninth woman's body found as South African police investigate string of deaths",
+    "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss"
   }
 ]
