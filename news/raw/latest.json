@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: mice with part-human brains and climate tech innovators",
+    "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/"
+  },
+  {
+    "category": "AI",
     "title": "Meet the innovators under 35 shaping climate tech",
     "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/"
   },
   {
-    "category": "AI",
-    "title": "Building the materials foundation for AI",
-    "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
-  },
-  {
     "category": "WORLD",
-    "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
-    "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft",
-    "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss"
+    "title": "Canada welcomes EU proposal to become 'associate member'",
+    "link": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Ninth woman's body found as South African police investigate string of deaths",
     "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
+    "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss"
   }
 ]
