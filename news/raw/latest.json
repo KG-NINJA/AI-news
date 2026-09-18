@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+    "link": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: mice with part-human brains and climate tech innovators",
     "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/"
   },
   {
-    "category": "AI",
-    "title": "Meet a mouse whose brain cortex is made up of human cells",
-    "link": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/"
+    "category": "WORLD",
+    "title": "Three dead and eight injured in Philippines school shooting",
+    "link": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Canada welcomes EU proposal to become 'associate member'",
-    "link": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
+    "title": "At least 16 killed in attack on mosque in Pakistan",
+    "link": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Ninth woman's body found as South African police investigate string of deaths",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-    "link": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+    "title": "New wild cat species discovered - with only one known living member",
+    "link": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro?at_medium=RSS&at_campaign=rss"
   }
 ]
