@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Don’t be fooled by this summer of AI hype ",
+    "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: investigating deaths at the US border’s “virtual wall”",
     "link": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
   },
   {
-    "category": "AI",
-    "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
-    "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
+    "category": "WORLD",
+    "title": "Major US outlets boycott shared Trump coverage in protest at media ban",
+    "link": "https://www.bbc.co.uk/news/articles/cje3rezd92y3o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-    "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss"
+    "title": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
+    "link": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
-    "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Merz vows to keep coalition together for Germany's 'democratic future'",
-    "link": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss"
+    "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss"
   }
 ]
