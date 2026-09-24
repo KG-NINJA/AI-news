@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+    "link": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/"
+  },
+  {
+    "category": "AI",
     "title": "AI is dominating the conversation at Climate Week",
     "link": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/"
   },
@@ -10,9 +15,9 @@
     "link": "https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/"
   },
   {
-    "category": "AI",
-    "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
-    "link": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/"
+    "category": "WORLD",
+    "title": "White House restores access to media outlets banned by Trump after judge's order",
+    "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -21,12 +26,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Trump offers warm welcome as China's Xi arrives for US visit",
-    "link": "https://www.bbc.co.uk/news/articles/cqgmrk7187lzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump and Xi come face-to-face as US and China battle to win the AI race",
-    "link": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
+    "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+    "link": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss"
   }
 ]
