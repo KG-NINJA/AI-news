@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
+    "link": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/"
+  },
+  {
+    "category": "AI",
     "title": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
     "link": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/"
   },
@@ -10,9 +15,9 @@
     "link": "https://www.technologyreview.com/2026/10/06/1145796/the-download-10-climate-tech-companies-to-watch/"
   },
   {
-    "category": "AI",
-    "title": "2026 Climate Tech Companies to Watch",
-    "link": "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch/"
+    "category": "WORLD",
+    "title": "France halts use of stun grenades after boy's hand blown off in student protests",
+    "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -23,10 +28,5 @@
     "category": "WORLD",
     "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
     "link": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Ex-US spy who stashed gold bars in his home admits to $200m scam",
-    "link": "https://www.bbc.co.uk/news/articles/cr3wvq965dngo?at_medium=RSS&at_campaign=rss"
   }
 ]
