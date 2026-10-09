@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+    "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
     "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/"
   },
   {
-    "category": "AI",
-    "title": "AI breakthroughs in robotics won’t change your life any time soon",
-    "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
+    "category": "WORLD",
+    "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC from Ukrainian prison",
+    "link": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
+    "title": "Firing squad execution to be livestreamed, Pentagon says",
     "link": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
     "link": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
-    "link": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss"
   }
 ]
