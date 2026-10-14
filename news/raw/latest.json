@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The US military’s race to make fake blood",
+    "link": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: open model trade-offs and geothermal power’s promise",
     "link": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
   },
@@ -10,19 +15,14 @@
     "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
   },
   {
-    "category": "AI",
-    "title": "AI labs are buying data from dead startups to train their models",
-    "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+    "category": "WORLD",
+    "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line",
+    "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
     "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-    "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
