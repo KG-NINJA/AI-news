@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: faking blood and the future of batteries",
+    "link": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/"
+  },
+  {
+    "category": "AI",
     "title": "The US military’s race to make fake blood",
     "link": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
   },
   {
-    "category": "AI",
-    "title": "Open models have real benefits. Do they outweigh the risks?",
-    "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
-  },
-  {
     "category": "WORLD",
-    "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line",
+    "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
     "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-    "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss"
+    "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+    "link": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-    "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+    "title": "US inflation rises more than expected - here's what is happening with prices",
+    "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
   }
 ]
