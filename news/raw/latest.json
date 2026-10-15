@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+    "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/"
+  },
+  {
+    "category": "AI",
     "title": "How much more can nuclear power plants give?",
     "link": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/"
   },
   {
-    "category": "AI",
-    "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
-    "link": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/"
+    "category": "WORLD",
+    "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+    "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Ukraine to restart strikes on Russian oil refineries, Zelensky says",
+    "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
     "link": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-    "link": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Eight crew missing in tanker fire off Romania's coast",
-    "link": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
+    "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan ",
+    "link": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
   }
 ]
