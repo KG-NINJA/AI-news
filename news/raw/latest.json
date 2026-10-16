@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: failed social media bans, and extending pets’ lives",
+    "link": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/"
+  },
+  {
+    "category": "AI",
     "title": "This implant can restore sight for patients with macular degeneration",
     "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/"
   },
   {
-    "category": "AI",
-    "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
-    "link": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/"
+    "category": "WORLD",
+    "title": "Ukraine pushes Russia back on front line where Starlink has played key role",
+    "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-    "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss"
+    "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+    "link": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-    "link": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-    "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
+    "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
+    "link": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
   }
 ]
