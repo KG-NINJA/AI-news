@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+    "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: failed social media bans, and extending pets’ lives",
     "link": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/"
   },
@@ -10,13 +15,8 @@
     "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/"
   },
   {
-    "category": "AI",
-    "title": "Love is infrastructure",
-    "link": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/"
-  },
-  {
     "category": "WORLD",
-    "title": "Ukraine pushes Russia back on front line where Starlink has played key role",
+    "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
     "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-    "link": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
+    "title": "Trump denies limiting Ukraine access to Starlink network",
+    "link": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
   }
 ]
