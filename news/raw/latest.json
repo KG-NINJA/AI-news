@@ -1,23 +1,18 @@
 [
   {
     "category": "AI",
+    "title": "Designing an AI serving harness built to last",
+    "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+  },
+  {
+    "category": "AI",
+    "title": "The Foundations of Scalable AI",
+    "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: computing’s next leap and permafrost’s climate threat",
     "link": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/"
-  },
-  {
-    "category": "AI",
-    "title": "Making the case for context-aware AI",
-    "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
-  },
-  {
-    "category": "AI",
-    "title": "Three things you should know about permafrost",
-    "link": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump ordered to answer questions under oath in BBC lawsuit ",
-    "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -26,7 +21,12 @@
   },
   {
     "category": "WORLD",
-    "title": "Crowd of 50 beats foreigner to death in South Africa",
-    "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss"
+    "title": "Race to update services' computer systems after cyber-security flaw found",
+    "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Trump ordered to answer questions under oath in BBC lawsuit ",
+    "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
   }
 ]
