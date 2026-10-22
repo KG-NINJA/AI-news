@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: computing’s next leap and permafrost’s climate threat",
+    "link": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/"
+  },
+  {
+    "category": "AI",
     "title": "Making the case for context-aware AI",
     "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/"
   },
   {
-    "category": "AI",
-    "title": "AI’s hidden storage bill: What inference leaves behind",
-    "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/"
+    "category": "WORLD",
+    "title": "Trump ordered to answer questions under oath in BBC lawsuit ",
+    "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
-    "link": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss"
+    "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+    "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "At least four dead after storm brings flooding to southern France",
-    "link": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "El Salvador's president threatens Haitian gangs over military hostages",
-    "link": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss"
+    "title": "Crowd of 50 beats foreigner to death in South Africa",
+    "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss"
   }
 ]
