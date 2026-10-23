@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "In the biotech world, you can’t see everything",
+    "link": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/"
+  },
+  {
+    "category": "AI",
     "title": "Designing an AI serving harness built to last",
     "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
   },
   {
-    "category": "AI",
-    "title": "The Download: computing’s next leap and permafrost’s climate threat",
-    "link": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/"
-  },
-  {
     "category": "WORLD",
-    "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
-    "link": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump says Musk has restored access to Ukraine's Starlink network",
+    "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
     "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-    "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+    "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
+    "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
+    "link": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss"
   }
 ]
