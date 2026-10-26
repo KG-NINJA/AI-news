@@ -1,18 +1,23 @@
 [
   {
     "category": "AI",
-    "title": "The Download: testing six tech promises and biotech’s blind spots",
-    "link": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/"
+    "title": "Will the real Anthropic please stand up",
+    "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
   },
   {
     "category": "AI",
-    "title": "In the biotech world, you can’t see everything",
-    "link": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/"
+    "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+    "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/"
   },
   {
     "category": "AI",
-    "title": "Designing an AI serving harness built to last",
-    "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+    "title": "The focus on AI safety disasters ignores everyday harms",
+    "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
+  },
+  {
+    "category": "WORLD",
+    "title": "Lula wins fourth term in dramatic Brazil election comeback",
+    "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
@@ -21,12 +26,7 @@
   },
   {
     "category": "WORLD",
-    "title": "Venezuelan opposition leader María Machado returns after months in exile",
-    "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Australian murderer loses bid to eat Vegemite in prison",
-    "link": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss"
+    "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+    "link": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss"
   }
 ]
