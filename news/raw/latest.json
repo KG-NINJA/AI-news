@@ -1,32 +1,32 @@
 [
   {
     "category": "AI",
+    "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+    "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/"
+  },
+  {
+    "category": "AI",
+    "title": "How solid-state transformers could help power the AI boom",
+    "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+  },
+  {
+    "category": "AI",
     "title": "Will the real Anthropic please stand up",
     "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
   },
   {
-    "category": "AI",
-    "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
-    "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/"
-  },
-  {
-    "category": "AI",
-    "title": "The focus on AI safety disasters ignores everyday harms",
-    "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
+    "category": "WORLD",
+    "title": "Turnout so far highest in decades as Israelis vote in pivotal election",
+    "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Lula wins fourth term in dramatic Brazil election comeback",
-    "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+    "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+    "link": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Ex-FBI chief James Comey faces federal charges for third time",
-    "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Jay-Z to perform at Super Bowl half-time show",
-    "link": "https://www.bbc.co.uk/news/articles/cq8ezg4364epo?at_medium=RSS&at_campaign=rss"
+    "title": "Truce begins in Ukraine city where residents ate weeds to survive",
+    "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
   }
 ]
