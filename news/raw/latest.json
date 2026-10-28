@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "Creating AI value with enterprise context",
+    "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: dead startups fueling AI and interspecies communication",
     "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
   },
   {
-    "category": "AI",
-    "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
-    "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
+    "category": "WORLD",
+    "title": "High-speed train crash kills at least 68 people in Spain",
+    "link": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-    "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss"
+    "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+    "link": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-    "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
-    "link": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss"
+    "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+    "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
   }
 ]
