@@ -1,32 +1,32 @@
 [
   {
     "category": "AI",
+    "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+    "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/"
+  },
+  {
+    "category": "AI",
+    "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+    "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
     "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/"
-  },
-  {
-    "category": "AI",
-    "title": "A new bill could change how the US builds energy infrastructure ",
-    "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/"
-  },
-  {
-    "category": "AI",
-    "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-    "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
-  },
-  {
-    "category": "WORLD",
-    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-    "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Trump signs order preventing future presidents from changing Oval Office ",
-    "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
     "link": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Trump signs order to preserve Oval Office as national monument",
+    "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Two dead after bus crashes in France, officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
   }
 ]
