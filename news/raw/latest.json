@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: preserving minds and weighing open AI risks",
+    "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
     "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/"
   },
   {
-    "category": "AI",
-    "title": "The backlash about data centers might really just be about electricity",
-    "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
-  },
-  {
     "category": "WORLD",
     "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
     "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "US Army soldier suspected of spying for Russia arrested in UK",
-    "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss"
+    "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+    "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-    "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
+    "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+    "link": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss"
   }
 ]
