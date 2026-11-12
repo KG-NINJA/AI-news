@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: COP31’s climate challenge and the quest for immortality",
+    "link": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/"
+  },
+  {
+    "category": "AI",
     "title": "What to know about this year’s UN climate talks",
     "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/"
   },
   {
-    "category": "AI",
-    "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
-    "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/"
+    "category": "WORLD",
+    "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+    "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-    "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+    "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+    "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+    "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
     "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-    "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
   }
 ]
