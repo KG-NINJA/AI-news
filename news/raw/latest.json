@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "What to know about this year’s UN climate talks",
+    "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: preserving minds and weighing open AI risks",
     "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/"
   },
   {
-    "category": "AI",
-    "title": "Evolving metal extraction processes",
-    "link": "https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/"
+    "category": "WORLD",
+    "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-    "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
+    "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+    "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-    "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-    "link": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss"
+    "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+    "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
   }
 ]
