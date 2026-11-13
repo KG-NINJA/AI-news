@@ -1,32 +1,32 @@
 [
   {
     "category": "AI",
-    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-    "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+    "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/"
   },
   {
     "category": "AI",
-    "title": "The Download: COP31’s climate challenge and the quest for immortality",
-    "link": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/"
+    "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+    "link": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/"
   },
   {
     "category": "AI",
-    "title": "What to know about this year’s UN climate talks",
-    "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/"
+    "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+    "link": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/"
+  },
+  {
+    "category": "WORLD",
+    "title": "What we know about the global Microsoft outage",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+    "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
     "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-    "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-    "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss"
   }
 ]
