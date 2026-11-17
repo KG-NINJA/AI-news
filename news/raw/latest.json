@@ -1,32 +1,32 @@
 [
   {
     "category": "AI",
+    "title": "The open-source movement wants Jensen Huang back",
+    "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
+  },
+  {
+    "category": "AI",
+    "title": "Building trustworthy AI by fencing it in, not predicting it",
+    "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: testing tech promises and searching for cognitive immortality",
     "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/"
   },
   {
-    "category": "AI",
-    "title": "Building AI that can work across the enterprise",
-    "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/"
-  },
-  {
-    "category": "AI",
-    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
-    "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/"
-  },
-  {
     "category": "WORLD",
-    "title": "Yemeni forces retreat to defend port city from Houthis",
-    "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
-    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
+    "title": "Five EU countries announce migrant deportation centre in Rwanda",
     "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+    "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "category": "WORLD",
+    "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
   }
 ]
