@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The most misunderstood graph in AI just got a major update",
+    "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: inside the quest to make our minds immortal",
     "link": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/"
   },
   {
-    "category": "AI",
-    "title": "A human liver has been kept alive outside the body for a record seven weeks",
-    "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
+    "category": "WORLD",
+    "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+    "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-    "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+    "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+    "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
     "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Nearly 600 women killed in South Africa within three months",
-    "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
   }
 ]
