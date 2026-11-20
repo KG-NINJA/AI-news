@@ -1,6 +1,11 @@
 [
   {
     "category": "AI",
+    "title": "The Download: inside the quest to make our minds immortal",
+    "link": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/"
+  },
+  {
+    "category": "AI",
     "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
     "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/"
   },
@@ -10,23 +15,18 @@
     "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
   },
   {
-    "category": "AI",
-    "title": "What a billion-dollar deal says about the US battery market",
-    "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/"
+    "category": "WORLD",
+    "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+    "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-    "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
+    "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+    "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
   },
   {
     "category": "WORLD",
-    "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
-    "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "category": "WORLD",
-    "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-    "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+    "title": "Nearly 600 women killed in South Africa within three months",
+    "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
   }
 ]
